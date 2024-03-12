@@ -1,0 +1,11 @@
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\bin\Debug\net8.0\Shared.deps.json
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\bin\Debug\net8.0\Shared.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\bin\Debug\net8.0\Shared.pdb
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\refint\Shared.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.pdb
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\ref\Shared.dll

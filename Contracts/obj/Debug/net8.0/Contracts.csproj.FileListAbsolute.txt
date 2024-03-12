@@ -1,0 +1,15 @@
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\bin\Debug\net8.0\Contracts.deps.json
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\bin\Debug\net8.0\Contracts.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\bin\Debug\net8.0\Contracts.pdb
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\bin\Debug\net8.0\Entities.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\bin\Debug\net8.0\Entities.pdb
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.csproj.CoreCompileInputs.cache
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.csproj.Up2Date
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\refint\Contracts.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.pdb
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\ref\Contracts.dll

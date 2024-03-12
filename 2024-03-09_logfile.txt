@@ -1,0 +1,191 @@
+2024-03-09 16:44:12.4394 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-09 16:44:12.6569 DEBUG Hosting starting
+2024-03-09 16:44:13.0207 DEBUG Connection id "0HN20E55VSAEC" accepted.
+2024-03-09 16:44:13.0207 DEBUG Connection id "0HN20E55VSAEC" started.
+2024-03-09 16:44:13.0381 INFO Now listening on: https://localhost:7137
+2024-03-09 16:44:13.0381 INFO Now listening on: http://localhost:5149
+2024-03-09 16:44:13.0381 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-09 16:44:13.0381 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-09 16:44:13.0381 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-09 16:44:13.0381 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-09 16:44:13.0547 DEBUG Connection id "0HN20E55VSAED" accepted.
+2024-03-09 16:44:13.0547 DEBUG Connection id "0HN20E55VSAED" started.
+2024-03-09 16:44:13.1048 INFO Application started. Press Ctrl+C to shut down.
+2024-03-09 16:44:13.1048 INFO Hosting environment: Development
+2024-03-09 16:44:13.1100 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-09 16:44:13.1100 DEBUG Hosting started
+2024-03-09 16:44:13.6659 DEBUG Connection id "0HN20E55VSAEE" accepted.
+2024-03-09 16:44:13.6754 DEBUG Connection id "0HN20E55VSAEF" accepted.
+2024-03-09 16:44:13.6754 DEBUG Connection id "0HN20E55VSAEE" started.
+2024-03-09 16:44:13.6754 DEBUG Connection id "0HN20E55VSAEF" started.
+2024-03-09 16:44:13.7247 DEBUG Connection id "0HN20E55VSAEF" received FIN.
+2024-03-09 16:44:13.7558 DEBUG Connection 0HN20E55VSAEE established using the following protocol: Tls12
+2024-03-09 16:44:13.7558 DEBUG Connection 0HN20E55VSAEF established using the following protocol: Tls12
+2024-03-09 16:44:13.8174 DEBUG Connection id "0HN20E55VSAEF" is closed. The last processed stream ID was 0.
+2024-03-09 16:44:13.8174 DEBUG Connection id "0HN20E55VSAEF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 16:44:13.8174 DEBUG The connection queue processing loop for 0HN20E55VSAEF completed.
+2024-03-09 16:44:13.8322 DEBUG Connection id "0HN20E55VSAEF" stopped.
+2024-03-09 16:44:13.8842 INFO Request starting HTTP/2 GET https://localhost:7137/swagger/index.html - - -
+2024-03-09 16:44:14.2111 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-09 16:44:14.2360 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-03-09 16:44:14.2360 DEBUG Request did not match any endpoints
+2024-03-09 16:44:14.3359 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-03-09 16:44:14.3359 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-03-09 16:44:14.3905 DEBUG Response markup was updated to include Browser Link script injection.
+2024-03-09 16:44:14.3937 DEBUG Response markup was updated to include browser refresh script injection.
+2024-03-09 16:44:14.3937 INFO Request finished HTTP/2 GET https://localhost:7137/swagger/index.html - 200 - text/html;charset=utf-8 520.3638ms
+2024-03-09 16:44:14.4259 INFO Request starting HTTP/2 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - - -
+2024-03-09 16:44:14.4259 INFO Request starting HTTP/2 GET https://localhost:7137/_vs/browserLink - - -
+2024-03-09 16:44:14.4259 INFO Request finished HTTP/2 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 5.6153ms
+2024-03-09 16:44:14.5356 INFO Request finished HTTP/2 GET https://localhost:7137/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 107.9426ms
+2024-03-09 16:44:14.5978 INFO Request starting HTTP/2 GET https://localhost:7137/swagger/v1/swagger.json - - -
+2024-03-09 16:44:14.5978 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-09 16:44:14.5978 DEBUG Request did not match any endpoints
+2024-03-09 16:44:14.7146 ERROR An unhandled exception has occurred while executing the request.
+2024-03-09 16:44:14.7201 INFO Request finished HTTP/2 GET https://localhost:7137/swagger/v1/swagger.json - 500 - text/plain;+charset=utf-8 122.7234ms
+2024-03-09 16:44:23.0381 DEBUG Authentication of the HTTPS connection timed out.
+2024-03-09 16:44:23.0381 DEBUG Connection id "0HN20E55VSAEC" stopped.
+2024-03-09 16:44:23.0381 DEBUG Connection id "0HN20E55VSAEC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 16:44:23.0649 DEBUG Authentication of the HTTPS connection timed out.
+2024-03-09 16:44:23.0649 DEBUG Connection id "0HN20E55VSAED" stopped.
+2024-03-09 16:44:23.0649 DEBUG Connection id "0HN20E55VSAED" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 16:44:45.7764 INFO Request starting HTTP/2 GET https://localhost:7137/swagger/index.html - - -
+2024-03-09 16:44:45.7815 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-03-09 16:44:45.7815 DEBUG Request did not match any endpoints
+2024-03-09 16:44:45.7815 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-03-09 16:44:45.7815 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-03-09 16:44:45.7815 DEBUG Response markup was updated to include Browser Link script injection.
+2024-03-09 16:44:45.7815 DEBUG Response markup was updated to include browser refresh script injection.
+2024-03-09 16:44:45.7815 INFO Request finished HTTP/2 GET https://localhost:7137/swagger/index.html - 200 - text/html;charset=utf-8 20.6264ms
+2024-03-09 16:44:45.8168 INFO Request starting HTTP/2 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - - -
+2024-03-09 16:44:45.8168 INFO Request starting HTTP/2 GET https://localhost:7137/_vs/browserLink - - -
+2024-03-09 16:44:45.8168 INFO Request finished HTTP/2 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.0826ms
+2024-03-09 16:44:45.8337 INFO Request finished HTTP/2 GET https://localhost:7137/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 17.6774ms
+2024-03-09 16:44:45.9422 INFO Request starting HTTP/2 GET https://localhost:7137/swagger/v1/swagger.json - - -
+2024-03-09 16:44:45.9422 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-09 16:44:45.9422 DEBUG Request did not match any endpoints
+2024-03-09 16:44:45.9422 INFO Request starting HTTP/2 GET https://localhost:7137/swagger/favicon-32x32.png - - -
+2024-03-09 16:44:45.9422 DEBUG No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-03-09 16:44:45.9422 DEBUG Request did not match any endpoints
+2024-03-09 16:44:45.9573 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-09 16:44:45.9573 INFO Request finished HTTP/2 GET https://localhost:7137/swagger/favicon-32x32.png - 200 628 image/png 8.4690ms
+2024-03-09 16:44:46.0421 INFO Request finished HTTP/2 GET https://localhost:7137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 100.1285ms
+2024-03-09 16:44:54.6649 INFO Request starting HTTP/2 GET https://localhost:7137/WeatherForecast/GetLogMessage - - -
+2024-03-09 16:44:54.6649 DEBUG 1 candidate(s) found for the request path '/WeatherForecast/GetLogMessage'
+2024-03-09 16:44:54.6732 DEBUG Endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)' with route pattern 'WeatherForecast/GetLogMessage' is valid for the request path '/WeatherForecast/GetLogMessage'
+2024-03-09 16:44:54.6732 DEBUG Request matched endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)'
+2024-03-09 16:44:54.6732 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-09 16:44:54.6732 INFO Executing endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)'
+2024-03-09 16:44:54.7021 INFO Route matched with {action = "GetLogMessage", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] GetLogMessage() on controller Marinko.API.Controllers.WeatherForecastController (Marinko.API).
+2024-03-09 16:44:54.7021 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-09 16:44:54.7021 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-09 16:44:54.7021 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-09 16:44:54.7021 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-09 16:44:54.7021 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-09 16:44:54.7044 DEBUG Executing controller factory for controller Marinko.API.Controllers.WeatherForecastController (Marinko.API)
+2024-03-09 16:44:54.7044 DEBUG Executed controller factory for controller Marinko.API.Controllers.WeatherForecastController (Marinko.API)
+2024-03-09 16:44:54.7044 INFO Here is info message from our values controller.
+2024-03-09 16:44:54.7044 DEBUG Here is debug message from our values controller.
+2024-03-09 16:44:54.7044 WARN Here is warn message from our values controller.
+2024-03-09 16:44:54.7044 ERROR Here is an error message from our values controller.
+2024-03-09 16:44:54.7193 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-09 16:44:54.7193 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-03-09 16:44:54.7193 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-03-09 16:44:54.7193 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-09 16:44:54.7193 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-09 16:44:54.7193 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-09 16:44:54.7193 INFO Executing ObjectResult, writing value of type 'System.String[]'.
+2024-03-09 16:44:54.7391 INFO Executed action Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API) in 29.2217ms
+2024-03-09 16:44:54.7391 INFO Executed endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)'
+2024-03-09 16:44:54.7391 INFO Request finished HTTP/2 GET https://localhost:7137/WeatherForecast/GetLogMessage - 200 - application/json;+charset=utf-8 75.0275ms
+2024-03-09 16:45:49.1120 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-09 16:45:49.1924 DEBUG Hosting starting
+2024-03-09 16:45:49.6062 INFO Now listening on: https://localhost:7137
+2024-03-09 16:45:49.6062 INFO Now listening on: http://localhost:5149
+2024-03-09 16:45:49.6062 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-09 16:45:49.6062 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-09 16:45:49.6062 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-09 16:45:49.6062 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-09 16:45:49.6632 INFO Application started. Press Ctrl+C to shut down.
+2024-03-09 16:45:49.6632 INFO Hosting environment: Development
+2024-03-09 16:45:49.6632 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-09 16:45:49.6632 DEBUG Hosting started
+2024-03-09 16:45:49.7421 DEBUG Connection id "0HN20E62Q9FOD" accepted.
+2024-03-09 16:45:49.7421 DEBUG Connection id "0HN20E62Q9FOD" started.
+2024-03-09 16:45:49.7522 DEBUG Connection id "0HN20E62Q9FOE" accepted.
+2024-03-09 16:45:49.7522 DEBUG Connection id "0HN20E62Q9FOE" started.
+2024-03-09 16:45:49.7705 DEBUG Connection id "0HN20E62Q9FOE" received FIN.
+2024-03-09 16:45:49.7705 DEBUG Connection id "0HN20E62Q9FOD" received FIN.
+2024-03-09 16:45:49.7705 DEBUG Failed to authenticate HTTPS connection.
+2024-03-09 16:45:49.7705 DEBUG Failed to authenticate HTTPS connection.
+2024-03-09 16:45:49.7857 DEBUG Connection id "0HN20E62Q9FOE" stopped.
+2024-03-09 16:45:49.7857 DEBUG Connection id "0HN20E62Q9FOD" stopped.
+2024-03-09 16:45:49.7857 DEBUG Connection id "0HN20E62Q9FOD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 16:45:49.7857 DEBUG Connection id "0HN20E62Q9FOE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 16:45:50.0547 DEBUG Connection id "0HN20E62Q9FOF" accepted.
+2024-03-09 16:45:50.0547 DEBUG Connection id "0HN20E62Q9FOF" started.
+2024-03-09 16:45:50.1260 DEBUG Connection 0HN20E62Q9FOF established using the following protocol: Tls12
+2024-03-09 16:45:50.1778 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/index.html - - -
+2024-03-09 16:45:50.3039 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-09 16:45:50.3313 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-03-09 16:45:50.3313 DEBUG Request did not match any endpoints
+2024-03-09 16:45:50.4369 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-03-09 16:45:50.4369 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-03-09 16:45:50.4626 DEBUG Response markup was updated to include Browser Link script injection.
+2024-03-09 16:45:50.4626 DEBUG Response markup was updated to include browser refresh script injection.
+2024-03-09 16:45:50.4626 DEBUG Connection id "0HN20E62Q9FOF" completed keep alive response.
+2024-03-09 16:45:50.4626 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/index.html - 200 - text/html;charset=utf-8 295.4289ms
+2024-03-09 16:45:50.4806 INFO Request starting HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - - -
+2024-03-09 16:45:50.4806 DEBUG Connection id "0HN20E62Q9FOF" completed keep alive response.
+2024-03-09 16:45:50.4806 INFO Request finished HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 2.4302ms
+2024-03-09 16:45:50.4887 INFO Request starting HTTP/1.1 GET https://localhost:7137/_vs/browserLink - - -
+2024-03-09 16:45:50.5780 DEBUG Connection id "0HN20E62Q9FOF" completed keep alive response.
+2024-03-09 16:45:50.5780 INFO Request finished HTTP/1.1 GET https://localhost:7137/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 89.3921ms
+2024-03-09 16:45:50.6392 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - - -
+2024-03-09 16:45:50.6392 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-09 16:45:50.6392 DEBUG Request did not match any endpoints
+2024-03-09 16:45:50.7665 DEBUG Connection id "0HN20E62Q9FOF" completed keep alive response.
+2024-03-09 16:45:50.7667 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 127.5941ms
+2024-03-09 16:45:55.4517 INFO Request starting HTTP/1.1 GET https://localhost:7137/WeatherForecast/GetLogMessage - - -
+2024-03-09 16:45:55.4594 DEBUG 1 candidate(s) found for the request path '/WeatherForecast/GetLogMessage'
+2024-03-09 16:45:55.4594 DEBUG Endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)' with route pattern 'WeatherForecast/GetLogMessage' is valid for the request path '/WeatherForecast/GetLogMessage'
+2024-03-09 16:45:55.4594 DEBUG Request matched endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)'
+2024-03-09 16:45:55.4594 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-09 16:45:55.4707 INFO Executing endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)'
+2024-03-09 16:45:55.5090 INFO Route matched with {action = "GetLogMessage", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] GetLogMessage() on controller Marinko.API.Controllers.WeatherForecastController (Marinko.API).
+2024-03-09 16:45:55.5090 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-09 16:45:55.5090 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-09 16:45:55.5090 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-09 16:45:55.5090 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-09 16:45:55.5090 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-09 16:45:55.5090 DEBUG Executing controller factory for controller Marinko.API.Controllers.WeatherForecastController (Marinko.API)
+2024-03-09 16:45:55.5090 DEBUG Executed controller factory for controller Marinko.API.Controllers.WeatherForecastController (Marinko.API)
+2024-03-09 16:45:55.5186 INFO Here is info message from our values controller.
+2024-03-09 16:45:55.5186 DEBUG Here is debug message from our values controller.
+2024-03-09 16:45:55.5336 WARN Here is warn message from our values controller.
+2024-03-09 16:45:55.5336 ERROR Here is an error message from our values controller.
+2024-03-09 16:45:55.5336 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-09 16:45:55.5336 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-03-09 16:45:55.5336 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-03-09 16:45:55.5336 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-09 16:45:55.5336 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-09 16:45:55.5336 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-09 16:45:55.5470 INFO Executing ObjectResult, writing value of type 'System.String[]'.
+2024-03-09 16:45:55.5470 INFO Executed action Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API) in 39.824ms
+2024-03-09 16:45:55.5470 INFO Executed endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)'
+2024-03-09 16:45:55.5470 DEBUG Connection id "0HN20E62Q9FOF" completed keep alive response.
+2024-03-09 16:45:55.5470 INFO Request finished HTTP/1.1 GET https://localhost:7137/WeatherForecast/GetLogMessage - 200 - application/json;+charset=utf-8 104.8659ms
+2024-03-09 16:46:49.9413 INFO Request starting HTTP/1.1 GET https://localhost:7137/ - - -
+2024-03-09 16:46:49.9556 DEBUG No candidates found for the request path '/'
+2024-03-09 16:46:49.9556 DEBUG Request did not match any endpoints
+2024-03-09 16:46:49.9556 DEBUG The request path  does not match the path filter
+2024-03-09 16:46:49.9556 DEBUG Connection id "0HN20E62Q9FOF" completed keep alive response.
+2024-03-09 16:46:49.9556 INFO Request finished HTTP/1.1 GET https://localhost:7137/ - 404 0 - 16.1150ms
+2024-03-09 16:46:49.9556 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7137/, Response status code: 404
+2024-03-09 16:46:57.8383 INFO Request starting HTTP/1.1 GET https://localhost:7137/ - - -
+2024-03-09 16:46:57.8383 DEBUG No candidates found for the request path '/'
+2024-03-09 16:46:57.8383 DEBUG Request did not match any endpoints
+2024-03-09 16:46:57.8383 DEBUG The request path  does not match the path filter
+2024-03-09 16:46:57.8383 DEBUG Connection id "0HN20E62Q9FOF" completed keep alive response.
+2024-03-09 16:46:57.8383 INFO Request finished HTTP/1.1 GET https://localhost:7137/ - 404 0 - 7.9276ms
+2024-03-09 16:46:57.8383 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7137/, Response status code: 404

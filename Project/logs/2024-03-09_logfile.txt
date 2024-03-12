@@ -1,0 +1,914 @@
+2024-03-09 16:51:59.2858 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-09 16:51:59.3717 DEBUG Hosting starting
+2024-03-09 16:51:59.6885 INFO Now listening on: https://localhost:7137
+2024-03-09 16:51:59.6885 INFO Now listening on: http://localhost:5149
+2024-03-09 16:51:59.6885 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-09 16:51:59.6885 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-09 16:51:59.6885 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-09 16:51:59.6885 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-09 16:51:59.7436 INFO Application started. Press Ctrl+C to shut down.
+2024-03-09 16:51:59.7436 INFO Hosting environment: Development
+2024-03-09 16:51:59.7436 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-09 16:51:59.7436 DEBUG Hosting started
+2024-03-09 16:52:00.0761 DEBUG Connection id "0HN20E9H62DDE" accepted.
+2024-03-09 16:52:00.0761 DEBUG Connection id "0HN20E9H62DDE" started.
+2024-03-09 16:52:00.0832 DEBUG Connection id "0HN20E9H62DDF" accepted.
+2024-03-09 16:52:00.0832 DEBUG Connection id "0HN20E9H62DDF" started.
+2024-03-09 16:52:00.1059 DEBUG Connection id "0HN20E9H62DDE" received FIN.
+2024-03-09 16:52:00.1059 DEBUG Connection id "0HN20E9H62DDF" received FIN.
+2024-03-09 16:52:00.1132 DEBUG Failed to authenticate HTTPS connection.
+2024-03-09 16:52:00.1132 DEBUG Failed to authenticate HTTPS connection.
+2024-03-09 16:52:00.1132 DEBUG Connection id "0HN20E9H62DDF" stopped.
+2024-03-09 16:52:00.1132 DEBUG Connection id "0HN20E9H62DDE" stopped.
+2024-03-09 16:52:00.1132 DEBUG Connection id "0HN20E9H62DDE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 16:52:00.1132 DEBUG Connection id "0HN20E9H62DDF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 16:52:00.3525 DEBUG Connection id "0HN20E9H62DDG" accepted.
+2024-03-09 16:52:00.3603 DEBUG Connection id "0HN20E9H62DDG" started.
+2024-03-09 16:52:00.4021 DEBUG Connection 0HN20E9H62DDG established using the following protocol: Tls12
+2024-03-09 16:52:00.4502 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/index.html - - -
+2024-03-09 16:52:00.5968 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-09 16:52:00.6148 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-03-09 16:52:00.6148 DEBUG Request did not match any endpoints
+2024-03-09 16:52:00.6956 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-03-09 16:52:00.6956 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-03-09 16:52:00.7206 DEBUG Response markup was updated to include Browser Link script injection.
+2024-03-09 16:52:00.7206 DEBUG Response markup was updated to include browser refresh script injection.
+2024-03-09 16:52:00.7206 DEBUG Connection id "0HN20E9H62DDG" completed keep alive response.
+2024-03-09 16:52:00.7206 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/index.html - 200 - text/html;charset=utf-8 283.2864ms
+2024-03-09 16:52:00.7420 INFO Request starting HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - - -
+2024-03-09 16:52:00.7420 DEBUG Connection id "0HN20E9H62DDG" completed keep alive response.
+2024-03-09 16:52:00.7420 INFO Request finished HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.1460ms
+2024-03-09 16:52:00.7420 INFO Request starting HTTP/1.1 GET https://localhost:7137/_vs/browserLink - - -
+2024-03-09 16:52:00.7895 DEBUG Connection id "0HN20E9H62DDG" completed keep alive response.
+2024-03-09 16:52:00.7895 INFO Request finished HTTP/1.1 GET https://localhost:7137/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 40.4191ms
+2024-03-09 16:52:00.9000 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - - -
+2024-03-09 16:52:00.9000 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-09 16:52:00.9000 DEBUG Request did not match any endpoints
+2024-03-09 16:52:01.0481 DEBUG Connection id "0HN20E9H62DDG" completed keep alive response.
+2024-03-09 16:52:01.0481 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 148.3671ms
+2024-03-09 16:52:04.6126 INFO Request starting HTTP/1.1 GET https://localhost:7137/WeatherForecast/GetLogMessage - - -
+2024-03-09 16:52:04.6126 DEBUG 1 candidate(s) found for the request path '/WeatherForecast/GetLogMessage'
+2024-03-09 16:52:04.6262 DEBUG Endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)' with route pattern 'WeatherForecast/GetLogMessage' is valid for the request path '/WeatherForecast/GetLogMessage'
+2024-03-09 16:52:04.6262 DEBUG Request matched endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)'
+2024-03-09 16:52:04.6262 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-09 16:52:04.6262 INFO Executing endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)'
+2024-03-09 16:52:04.7270 INFO Route matched with {action = "GetLogMessage", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] GetLogMessage() on controller Marinko.API.Controllers.WeatherForecastController (Marinko.API).
+2024-03-09 16:52:04.7270 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-09 16:52:04.7270 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-09 16:52:04.7270 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-09 16:52:04.7270 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-09 16:52:04.7270 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-09 16:52:04.7270 DEBUG Executing controller factory for controller Marinko.API.Controllers.WeatherForecastController (Marinko.API)
+2024-03-09 16:52:04.7270 DEBUG Executed controller factory for controller Marinko.API.Controllers.WeatherForecastController (Marinko.API)
+2024-03-09 16:52:04.7392 INFO Here is info message from our values controller.
+2024-03-09 16:52:04.7392 DEBUG Here is debug message from our values controller.
+2024-03-09 16:52:04.7571 WARN Here is warn message from our values controller.
+2024-03-09 16:52:04.7571 ERROR Here is an error message from our values controller.
+2024-03-09 16:52:04.7663 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-09 16:52:04.7663 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-03-09 16:52:04.7663 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-03-09 16:52:04.7663 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-09 16:52:04.7663 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-09 16:52:04.7663 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-09 16:52:04.7663 INFO Executing ObjectResult, writing value of type 'System.String[]'.
+2024-03-09 16:52:04.7884 INFO Executed action Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API) in 52.3724ms
+2024-03-09 16:52:04.7884 INFO Executed endpoint 'Marinko.API.Controllers.WeatherForecastController.GetLogMessage (Marinko.API)'
+2024-03-09 16:52:04.7884 DEBUG Connection id "0HN20E9H62DDG" completed keep alive response.
+2024-03-09 16:52:04.7884 INFO Request finished HTTP/1.1 GET https://localhost:7137/WeatherForecast/GetLogMessage - 200 - application/json;+charset=utf-8 176.4451ms
+2024-03-09 17:59:35.4571 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 17:59:36.0158 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-09 17:59:36.0487 DEBUG 'RepositoryContext' disposed.
+2024-03-09 18:03:36.5012 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 18:03:37.1617 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: MigrationsAssembly=Marinko.API 
+2024-03-09 18:03:37.7827 DEBUG 'RepositoryContext' disposed.
+2024-03-09 18:03:48.8601 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 18:03:49.4382 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: MigrationsAssembly=Marinko.API 
+2024-03-09 18:03:49.4706 DEBUG Creating DbConnection.
+2024-03-09 18:03:49.5130 DEBUG Created DbConnection. (38ms).
+2024-03-09 18:03:49.5130 DEBUG Migrating using database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:49.5193 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:51.6527 DEBUG An error occurred using the connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:51.6527 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:51.6527 DEBUG An error occurred using the connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:51.6935 DEBUG Creating DbConnection.
+2024-03-09 18:03:51.6935 DEBUG Created DbConnection. (0ms).
+2024-03-09 18:03:51.6935 DEBUG Opening connection to database 'master' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:51.7090 DEBUG Opened connection to database 'master' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:51.7090 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:03:51.7090 DEBUG Created DbCommand for 'ExecuteNonQuery' (4ms).
+2024-03-09 18:03:51.7199 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2024-03-09 18:03:51.7199 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Marinko];
+2024-03-09 18:03:52.1077 INFO Executed DbCommand (377ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [Marinko];
+2024-03-09 18:03:52.1077 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:03:52.1077 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.1077 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.1077 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Marinko] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-03-09 18:03:52.1984 INFO Executed DbCommand (89ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Marinko] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-03-09 18:03:52.1984 DEBUG Closing connection to database 'master' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2064 DEBUG Closed connection to database 'master' on server '(localdb)\MSSQLLocalDB' (4ms).
+2024-03-09 18:03:52.2064 DEBUG Disposing connection to database 'master' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2064 DEBUG Disposed connection to database '' on server '' (1ms).
+2024-03-09 18:03:52.2064 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2064 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2064 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:03:52.2064 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.2064 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.2064 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 18:03:52.2216 INFO Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 18:03:52.2216 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2216 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:03:52.2867 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:03:52.2867 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.2867 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.2867 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2867 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2867 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-03-09 18:03:52.2987 INFO Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-03-09 18:03:52.2987 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2987 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:03:52.2987 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2987 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2987 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:03:52.2987 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.2987 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.2987 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 18:03:52.2987 INFO Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 18:03:52.2987 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2987 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:03:52.2987 DEBUG Creating DbCommand for 'ExecuteScalar'.
+2024-03-09 18:03:52.2987 DEBUG Created DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 18:03:52.2987 DEBUG Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 18:03:52.2987 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2987 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.2987 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 18:03:52.3165 INFO Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 18:03:52.3165 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.3165 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:03:52.3165 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.3165 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.3165 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-09 18:03:52.3165 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-09 18:03:52.3165 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-03-09 18:03:52.3165 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-03-09 18:03:52.3165 INFO Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-03-09 18:03:52.3165 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.3165 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results.
+2024-03-09 18:03:52.3165 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.3165 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:03:52.3383 INFO Applying migration '20240309210337_DatabaseCreation'.
+2024-03-09 18:03:52.3649 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.3649 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.3649 DEBUG Beginning transaction with isolation level 'Unspecified'.
+2024-03-09 18:03:52.3649 DEBUG Began transaction with isolation level 'ReadCommitted'.
+2024-03-09 18:03:52.3649 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:03:52.3649 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.3649 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.3649 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Companies] (
+    [CompanyId] uniqueidentifier NOT NULL,
+    [Name] nvarchar(60) NOT NULL,
+    [Address] nvarchar(60) NOT NULL,
+    [Country] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Companies] PRIMARY KEY ([CompanyId])
+);
+2024-03-09 18:03:52.3763 INFO Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Companies] (
+    [CompanyId] uniqueidentifier NOT NULL,
+    [Name] nvarchar(60) NOT NULL,
+    [Address] nvarchar(60) NOT NULL,
+    [Country] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Companies] PRIMARY KEY ([CompanyId])
+);
+2024-03-09 18:03:52.3763 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:03:52.3763 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.3763 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.3763 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Employees] (
+    [EmployeeId] uniqueidentifier NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Age] int NOT NULL,
+    [Position] nvarchar(20) NOT NULL,
+    [CompanyId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Employees] PRIMARY KEY ([EmployeeId]),
+    CONSTRAINT [FK_Employees_Companies_CompanyId] FOREIGN KEY ([CompanyId]) REFERENCES [Companies] ([CompanyId]) ON DELETE CASCADE
+);
+2024-03-09 18:03:52.3763 INFO Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Employees] (
+    [EmployeeId] uniqueidentifier NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Age] int NOT NULL,
+    [Position] nvarchar(20) NOT NULL,
+    [CompanyId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Employees] PRIMARY KEY ([EmployeeId]),
+    CONSTRAINT [FK_Employees_Companies_CompanyId] FOREIGN KEY ([CompanyId]) REFERENCES [Companies] ([CompanyId]) ON DELETE CASCADE
+);
+2024-03-09 18:03:52.3763 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:03:52.3763 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.3763 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.3763 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Employees_CompanyId] ON [Employees] ([CompanyId]);
+2024-03-09 18:03:52.3763 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Employees_CompanyId] ON [Employees] ([CompanyId]);
+2024-03-09 18:03:52.3763 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:03:52.3763 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.3763 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:03:52.3763 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240309210337_DatabaseCreation', N'8.0.2');
+2024-03-09 18:03:52.3763 INFO Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240309210337_DatabaseCreation', N'8.0.2');
+2024-03-09 18:03:52.3763 DEBUG Committing transaction.
+2024-03-09 18:03:52.3763 DEBUG Committed transaction.
+2024-03-09 18:03:52.3763 DEBUG Disposing transaction.
+2024-03-09 18:03:52.3763 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.3763 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:03:52.3763 DEBUG 'RepositoryContext' disposed.
+2024-03-09 18:03:52.3763 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:03:52.3763 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-03-09 18:07:54.6795 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 18:07:55.2698 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: MigrationsAssembly=Marinko.API 
+2024-03-09 18:07:55.7916 DEBUG 'RepositoryContext' disposed.
+2024-03-09 18:08:10.9095 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 18:08:11.5472 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: MigrationsAssembly=Marinko.API 
+2024-03-09 18:08:11.5654 DEBUG Creating DbConnection.
+2024-03-09 18:08:11.6015 DEBUG Created DbConnection. (31ms).
+2024-03-09 18:08:11.6015 DEBUG Migrating using database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.6015 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.8619 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.8619 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:08:11.8619 DEBUG Created DbCommand for 'ExecuteNonQuery' (3ms).
+2024-03-09 18:08:11.8619 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2024-03-09 18:08:11.8784 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 18:08:11.9017 INFO Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 18:08:11.9017 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9108 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (3ms).
+2024-03-09 18:08:11.9108 DEBUG Creating DbCommand for 'ExecuteScalar'.
+2024-03-09 18:08:11.9108 DEBUG Created DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 18:08:11.9108 DEBUG Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 18:08:11.9108 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9108 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9108 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 18:08:11.9260 INFO Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 18:08:11.9260 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9260 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:08:11.9260 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9260 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9260 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:08:11.9260 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:08:11.9260 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:08:11.9260 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 18:08:11.9260 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 18:08:11.9260 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9260 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:08:11.9260 DEBUG Creating DbCommand for 'ExecuteScalar'.
+2024-03-09 18:08:11.9260 DEBUG Created DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 18:08:11.9260 DEBUG Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 18:08:11.9260 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9260 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9260 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 18:08:11.9260 INFO Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 18:08:11.9260 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9260 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:08:11.9465 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9465 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9465 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-09 18:08:11.9465 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-09 18:08:11.9465 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-03-09 18:08:11.9465 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-03-09 18:08:11.9465 INFO Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-03-09 18:08:11.9465 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9465 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 2ms reading results.
+2024-03-09 18:08:11.9465 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9465 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:08:11.9645 INFO Applying migration '20240309210755_DatabaseAlter'.
+2024-03-09 18:08:11.9997 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:11.9997 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:12.0018 DEBUG Beginning transaction with isolation level 'Unspecified'.
+2024-03-09 18:08:12.0018 DEBUG Began transaction with isolation level 'ReadCommitted'.
+2024-03-09 18:08:12.0018 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:08:12.0018 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:08:12.0018 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:08:12.0018 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Companies]') AND [c].[name] = N'Country');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Companies] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Companies] ALTER COLUMN [Country] nvarchar(60) NOT NULL;
+2024-03-09 18:08:12.0378 INFO Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Companies]') AND [c].[name] = N'Country');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Companies] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Companies] ALTER COLUMN [Country] nvarchar(60) NOT NULL;
+2024-03-09 18:08:12.0378 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 18:08:12.0378 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:08:12.0378 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 18:08:12.0378 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240309210755_DatabaseAlter', N'8.0.2');
+2024-03-09 18:08:12.0378 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240309210755_DatabaseAlter', N'8.0.2');
+2024-03-09 18:08:12.0378 DEBUG Committing transaction.
+2024-03-09 18:08:12.0378 DEBUG Committed transaction.
+2024-03-09 18:08:12.0378 DEBUG Disposing transaction.
+2024-03-09 18:08:12.0378 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:12.0378 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 18:08:12.0378 DEBUG 'RepositoryContext' disposed.
+2024-03-09 18:08:12.0473 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 18:08:12.0473 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-03-09 18:54:01.8909 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-09 18:54:01.9814 DEBUG Hosting starting
+2024-03-09 18:54:03.5384 DEBUG Connection id "0HN20GDNO1IR5" accepted.
+2024-03-09 18:54:03.5384 DEBUG Connection id "0HN20GDNO1IR6" accepted.
+2024-03-09 18:54:03.5384 DEBUG Connection id "0HN20GDNO1IR6" started.
+2024-03-09 18:54:03.5384 DEBUG Connection id "0HN20GDNO1IR5" started.
+2024-03-09 18:54:03.5739 INFO Now listening on: https://localhost:7137
+2024-03-09 18:54:03.5739 INFO Now listening on: http://localhost:5149
+2024-03-09 18:54:03.5739 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-09 18:54:03.5739 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-09 18:54:03.5739 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-09 18:54:03.5739 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-09 18:54:03.6834 INFO Application started. Press Ctrl+C to shut down.
+2024-03-09 18:54:03.7066 INFO Hosting environment: Development
+2024-03-09 18:54:03.7066 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-09 18:54:03.7066 DEBUG Hosting started
+2024-03-09 18:54:04.0522 DEBUG Connection id "0HN20GDNO1IR7" accepted.
+2024-03-09 18:54:04.0522 DEBUG Connection id "0HN20GDNO1IR7" started.
+2024-03-09 18:54:04.2038 DEBUG Connection 0HN20GDNO1IR7 established using the following protocol: Tls12
+2024-03-09 18:54:04.3277 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/index.html - - -
+2024-03-09 18:54:04.5227 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-09 18:54:04.5481 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-03-09 18:54:04.5481 DEBUG Request did not match any endpoints
+2024-03-09 18:54:04.6520 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-03-09 18:54:04.6520 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-03-09 18:54:04.6810 DEBUG Response markup was updated to include Browser Link script injection.
+2024-03-09 18:54:04.6810 DEBUG Response markup was updated to include browser refresh script injection.
+2024-03-09 18:54:04.6810 DEBUG Connection id "0HN20GDNO1IR7" completed keep alive response.
+2024-03-09 18:54:04.6893 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/index.html - 200 - text/html;charset=utf-8 364.7370ms
+2024-03-09 18:54:04.7213 DEBUG Connection id "0HN20GDNO1IR8" accepted.
+2024-03-09 18:54:04.7213 DEBUG Connection id "0HN20GDNO1IR8" started.
+2024-03-09 18:54:04.7213 INFO Request starting HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - - -
+2024-03-09 18:54:04.7213 DEBUG Connection 0HN20GDNO1IR8 established using the following protocol: Tls12
+2024-03-09 18:54:04.7213 INFO Request starting HTTP/1.1 GET https://localhost:7137/_vs/browserLink - - -
+2024-03-09 18:54:04.7213 DEBUG Connection id "0HN20GDNO1IR7" completed keep alive response.
+2024-03-09 18:54:04.7213 INFO Request finished HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 4.3710ms
+2024-03-09 18:54:04.7837 DEBUG Connection id "0HN20GDNO1IR8" completed keep alive response.
+2024-03-09 18:54:04.7837 INFO Request finished HTTP/1.1 GET https://localhost:7137/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 58.7718ms
+2024-03-09 18:54:04.8708 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - - -
+2024-03-09 18:54:04.8708 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-09 18:54:04.8708 DEBUG Request did not match any endpoints
+2024-03-09 18:54:05.0272 DEBUG Connection id "0HN20GDNO1IR8" completed keep alive response.
+2024-03-09 18:54:05.0272 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 156.6386ms
+2024-03-09 18:54:13.5863 DEBUG Authentication of the HTTPS connection timed out.
+2024-03-09 18:54:13.5863 DEBUG Authentication of the HTTPS connection timed out.
+2024-03-09 18:54:13.5863 DEBUG Connection id "0HN20GDNO1IR6" stopped.
+2024-03-09 18:54:13.5863 DEBUG Connection id "0HN20GDNO1IR5" stopped.
+2024-03-09 18:54:13.5863 DEBUG Connection id "0HN20GDNO1IR6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 18:54:13.5863 DEBUG Connection id "0HN20GDNO1IR5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 18:54:15.6060 INFO Request starting HTTP/1.1 GET https://localhost:7137/WeatherForecast/GetCompAndEmp - - -
+2024-03-09 18:54:15.6151 DEBUG 1 candidate(s) found for the request path '/WeatherForecast/GetCompAndEmp'
+2024-03-09 18:54:15.6151 DEBUG Endpoint 'Marinko.API.Controllers.WeatherForecastController.GetCompAndEmp (Marinko.API)' with route pattern 'WeatherForecast/GetCompAndEmp' is valid for the request path '/WeatherForecast/GetCompAndEmp'
+2024-03-09 18:54:15.6151 DEBUG Request matched endpoint 'Marinko.API.Controllers.WeatherForecastController.GetCompAndEmp (Marinko.API)'
+2024-03-09 18:54:15.6151 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-09 18:54:15.6264 INFO Executing endpoint 'Marinko.API.Controllers.WeatherForecastController.GetCompAndEmp (Marinko.API)'
+2024-03-09 18:54:15.6513 INFO Route matched with {action = "GetCompAndEmp", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] GetCompAndEmp() on controller Marinko.API.Controllers.WeatherForecastController (Marinko.API).
+2024-03-09 18:54:15.6513 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-09 18:54:15.6513 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-09 18:54:15.6513 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-09 18:54:15.6513 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-09 18:54:15.6513 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-09 18:54:15.6606 DEBUG Executing controller factory for controller Marinko.API.Controllers.WeatherForecastController (Marinko.API)
+2024-03-09 18:54:15.8297 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 18:54:15.8503 DEBUG Executed controller factory for controller Marinko.API.Controllers.WeatherForecastController (Marinko.API)
+2024-03-09 18:54:15.8503 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-09 18:54:15.8611 DEBUG Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-03-09 18:54:15.8611 DEBUG Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-03-09 18:54:15.8611 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-09 18:54:15.8611 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-09 18:54:15.8611 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-09 18:54:15.8611 INFO Executing ObjectResult, writing value of type 'System.String[]'.
+2024-03-09 18:54:15.8786 INFO Executed action Marinko.API.Controllers.WeatherForecastController.GetCompAndEmp (Marinko.API) in 211.7544ms
+2024-03-09 18:54:15.8786 INFO Executed endpoint 'Marinko.API.Controllers.WeatherForecastController.GetCompAndEmp (Marinko.API)'
+2024-03-09 18:54:15.8786 DEBUG Connection id "0HN20GDNO1IR8" completed keep alive response.
+2024-03-09 18:54:15.8786 INFO Request finished HTTP/1.1 GET https://localhost:7137/WeatherForecast/GetCompAndEmp - 200 - application/json;+charset=utf-8 276.8311ms
+2024-03-09 19:09:01.7361 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-09 19:09:01.8619 DEBUG Hosting starting
+2024-03-09 19:09:02.2887 INFO Now listening on: https://localhost:7137
+2024-03-09 19:09:02.3410 INFO Now listening on: http://localhost:5149
+2024-03-09 19:09:02.3410 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-09 19:09:02.3410 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-09 19:09:02.3410 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-09 19:09:02.3410 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-09 19:09:02.4249 INFO Application started. Press Ctrl+C to shut down.
+2024-03-09 19:09:02.4249 INFO Hosting environment: Development
+2024-03-09 19:09:02.4249 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-09 19:09:02.4249 DEBUG Hosting started
+2024-03-09 19:09:02.6533 DEBUG Connection id "0HN20GM3MLQPO" accepted.
+2024-03-09 19:09:02.6533 DEBUG Connection id "0HN20GM3MLQPO" started.
+2024-03-09 19:09:02.6625 DEBUG Connection id "0HN20GM3MLQPP" received FIN.
+2024-03-09 19:09:02.6625 DEBUG Connection id "0HN20GM3MLQPO" received FIN.
+2024-03-09 19:09:02.6625 DEBUG Connection id "0HN20GM3MLQPP" accepted.
+2024-03-09 19:09:02.6625 DEBUG Connection id "0HN20GM3MLQPP" started.
+2024-03-09 19:09:02.6978 DEBUG Failed to authenticate HTTPS connection.
+2024-03-09 19:09:02.6978 DEBUG Failed to authenticate HTTPS connection.
+2024-03-09 19:09:02.6978 DEBUG Connection id "0HN20GM3MLQPO" stopped.
+2024-03-09 19:09:02.6978 DEBUG Connection id "0HN20GM3MLQPP" stopped.
+2024-03-09 19:09:02.7078 DEBUG Connection id "0HN20GM3MLQPO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 19:09:02.7078 DEBUG Connection id "0HN20GM3MLQPP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 19:09:02.9634 DEBUG Connection id "0HN20GM3MLQPQ" accepted.
+2024-03-09 19:09:02.9634 DEBUG Connection id "0HN20GM3MLQPQ" started.
+2024-03-09 19:09:03.0238 DEBUG Connection 0HN20GM3MLQPQ established using the following protocol: Tls12
+2024-03-09 19:09:03.1158 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/index.html - - -
+2024-03-09 19:09:03.2924 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-09 19:09:03.3162 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-03-09 19:09:03.3162 DEBUG Request did not match any endpoints
+2024-03-09 19:09:03.4018 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-03-09 19:09:03.4018 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-03-09 19:09:03.4220 DEBUG Response markup was updated to include Browser Link script injection.
+2024-03-09 19:09:03.4227 DEBUG Response markup was updated to include browser refresh script injection.
+2024-03-09 19:09:03.4227 DEBUG Connection id "0HN20GM3MLQPQ" completed keep alive response.
+2024-03-09 19:09:03.4227 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/index.html - 200 - text/html;charset=utf-8 319.7640ms
+2024-03-09 19:09:03.4514 INFO Request starting HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - - -
+2024-03-09 19:09:03.4514 DEBUG Connection id "0HN20GM3MLQPQ" completed keep alive response.
+2024-03-09 19:09:03.4514 INFO Request finished HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 2.4112ms
+2024-03-09 19:09:03.5027 INFO Request starting HTTP/1.1 GET https://localhost:7137/_vs/browserLink - - -
+2024-03-09 19:09:03.5507 DEBUG Connection id "0HN20GM3MLQPQ" completed keep alive response.
+2024-03-09 19:09:03.5507 INFO Request finished HTTP/1.1 GET https://localhost:7137/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 48.2517ms
+2024-03-09 19:09:03.7141 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - - -
+2024-03-09 19:09:03.7141 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-09 19:09:03.7141 DEBUG Request did not match any endpoints
+2024-03-09 19:09:03.8308 DEBUG Connection id "0HN20GM3MLQPQ" completed keep alive response.
+2024-03-09 19:09:03.8308 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 116.9018ms
+2024-03-09 19:09:15.8664 INFO Request starting HTTP/1.1 GET https://localhost:7137/api/Companies - - -
+2024-03-09 19:09:15.8664 DEBUG 1 candidate(s) found for the request path '/api/Companies'
+2024-03-09 19:09:15.8773 DEBUG Endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)' with route pattern 'api/Companies' is valid for the request path '/api/Companies'
+2024-03-09 19:09:15.8773 DEBUG Request matched endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)'
+2024-03-09 19:09:15.8773 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-09 19:09:15.8773 INFO Executing endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)'
+2024-03-09 19:09:15.9104 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller Marinko.API.Controllers.CompaniesController (Marinko.API).
+2024-03-09 19:09:15.9104 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-09 19:09:15.9104 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-09 19:09:15.9104 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-09 19:09:15.9104 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-09 19:09:15.9104 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-09 19:09:15.9104 DEBUG Executing controller factory for controller Marinko.API.Controllers.CompaniesController (Marinko.API)
+2024-03-09 19:09:16.0788 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 19:09:16.1030 DEBUG Executed controller factory for controller Marinko.API.Controllers.CompaniesController (Marinko.API)
+2024-03-09 19:09:16.9477 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: MigrationsAssembly=Marinko.API 
+2024-03-09 19:09:17.0257 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-09 19:09:17.3617 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Entities.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-09 19:09:17.3961 DEBUG Creating DbConnection.
+2024-03-09 19:09:17.4277 DEBUG Created DbConnection. (28ms).
+2024-03-09 19:09:17.4277 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:09:19.4511 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:09:19.4549 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-09 19:09:19.4549 DEBUG Created DbCommand for 'ExecuteReader' (5ms).
+2024-03-09 19:09:19.4549 DEBUG Initialized DbCommand for 'ExecuteReader' (11ms).
+2024-03-09 19:09:19.4718 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-09 19:09:19.5053 INFO Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-09 19:09:19.5053 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:09:19.5182 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 8ms reading results.
+2024-03-09 19:09:19.5182 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:09:19.5182 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-03-09 19:09:19.5316 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-09 19:09:19.5316 DEBUG No information found on request to perform content negotiation.
+2024-03-09 19:09:19.5316 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-09 19:09:19.5316 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-09 19:09:19.5316 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-09 19:09:19.5316 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Models.Company, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-09 19:09:19.5489 INFO Executed action Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API) in 3631.5457ms
+2024-03-09 19:09:19.5489 INFO Executed endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)'
+2024-03-09 19:09:19.5489 DEBUG Connection id "0HN20GM3MLQPQ" completed keep alive response.
+2024-03-09 19:09:19.5489 DEBUG 'RepositoryContext' disposed.
+2024-03-09 19:09:19.5489 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:09:19.5489 DEBUG Disposed connection to database '' on server '' (1ms).
+2024-03-09 19:09:19.5489 INFO Request finished HTTP/1.1 GET https://localhost:7137/api/Companies - 200 - application/json;+charset=utf-8 3692.8061ms
+2024-03-09 19:11:54.7819 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 19:11:55.3704 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: MigrationsAssembly=Marinko.API 
+2024-03-09 19:11:56.2174 DEBUG 'RepositoryContext' disposed.
+2024-03-09 19:12:17.9080 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 19:12:18.4916 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: MigrationsAssembly=Marinko.API 
+2024-03-09 19:12:18.5030 DEBUG Creating DbConnection.
+2024-03-09 19:12:18.5466 DEBUG Created DbConnection. (30ms).
+2024-03-09 19:12:18.5483 DEBUG Migrating using database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.5483 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8053 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8053 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 19:12:18.8149 DEBUG Created DbCommand for 'ExecuteNonQuery' (3ms).
+2024-03-09 19:12:18.8149 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2024-03-09 19:12:18.8149 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 19:12:18.8464 INFO Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 19:12:18.8464 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8464 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (4ms).
+2024-03-09 19:12:18.8464 DEBUG Creating DbCommand for 'ExecuteScalar'.
+2024-03-09 19:12:18.8464 DEBUG Created DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 19:12:18.8464 DEBUG Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 19:12:18.8464 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8464 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8464 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 19:12:18.8725 INFO Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 19:12:18.8725 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8725 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 19:12:18.8725 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8725 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8725 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 19:12:18.8725 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 19:12:18.8725 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 19:12:18.8725 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 19:12:18.8725 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2024-03-09 19:12:18.8725 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8725 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 19:12:18.8725 DEBUG Creating DbCommand for 'ExecuteScalar'.
+2024-03-09 19:12:18.8725 DEBUG Created DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 19:12:18.8725 DEBUG Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-03-09 19:12:18.8725 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8725 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8725 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 19:12:18.8763 INFO Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-03-09 19:12:18.8763 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8763 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 19:12:18.8917 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8917 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8917 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-09 19:12:18.8917 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-09 19:12:18.8917 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-03-09 19:12:18.8917 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-03-09 19:12:18.8917 INFO Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-03-09 19:12:18.8917 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8917 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results.
+2024-03-09 19:12:18.8917 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.8917 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 19:12:18.9093 INFO Applying migration '20240309221156_DatabaseInsert'.
+2024-03-09 19:12:18.9470 DEBUG Executing 2 update commands as a batch.
+2024-03-09 19:12:18.9547 DEBUG Executing 3 update commands as a batch.
+2024-03-09 19:12:18.9547 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.9547 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:18.9547 DEBUG Beginning transaction with isolation level 'Unspecified'.
+2024-03-09 19:12:18.9547 DEBUG Began transaction with isolation level 'ReadCommitted'.
+2024-03-09 19:12:18.9547 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 19:12:18.9547 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 19:12:18.9547 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-03-09 19:12:18.9547 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CompanyId', N'Address', N'Country', N'Name') AND [object_id] = OBJECT_ID(N'[Companies]'))
+    SET IDENTITY_INSERT [Companies] ON;
+INSERT INTO [Companies] ([CompanyId], [Address], [Country], [Name])
+VALUES ('3d490a70-94ce-4d15-9494-5248280c2ce3', N'312 Forest Avenue, BF 923', N'USA', N'Admin_Solutions Ltd'),
+('c9d4c053-49b6-410c-bc78-2d54a9991870', N'583 Wall Dr. Gwynn Oak, MD 21207', N'USA', N'IT_Solutions Ltd');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CompanyId', N'Address', N'Country', N'Name') AND [object_id] = OBJECT_ID(N'[Companies]'))
+    SET IDENTITY_INSERT [Companies] OFF;
+2024-03-09 19:12:18.9965 INFO Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CompanyId', N'Address', N'Country', N'Name') AND [object_id] = OBJECT_ID(N'[Companies]'))
+    SET IDENTITY_INSERT [Companies] ON;
+INSERT INTO [Companies] ([CompanyId], [Address], [Country], [Name])
+VALUES ('3d490a70-94ce-4d15-9494-5248280c2ce3', N'312 Forest Avenue, BF 923', N'USA', N'Admin_Solutions Ltd'),
+('c9d4c053-49b6-410c-bc78-2d54a9991870', N'583 Wall Dr. Gwynn Oak, MD 21207', N'USA', N'IT_Solutions Ltd');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CompanyId', N'Address', N'Country', N'Name') AND [object_id] = OBJECT_ID(N'[Companies]'))
+    SET IDENTITY_INSERT [Companies] OFF;
+2024-03-09 19:12:18.9965 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 19:12:18.9965 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 19:12:18.9965 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 19:12:18.9965 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'EmployeeId', N'Age', N'CompanyId', N'Name', N'Position') AND [object_id] = OBJECT_ID(N'[Employees]'))
+    SET IDENTITY_INSERT [Employees] ON;
+INSERT INTO [Employees] ([EmployeeId], [Age], [CompanyId], [Name], [Position])
+VALUES ('021ca3c1-0deb-4afd-ae94-2159a8479811', 35, '3d490a70-94ce-4d15-9494-5248280c2ce3', N'Kane Miller', N'Administrator'),
+('80abbca8-664d-4b20-b5de-024705497d4a', 26, 'c9d4c053-49b6-410c-bc78-2d54a9991870', N'Sam Raiden', N'Software developer'),
+('86dba8c0-d178-41e7-938c-ed49778fb52a', 30, 'c9d4c053-49b6-410c-bc78-2d54a9991870', N'Jana McLeaf', N'Software developer');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'EmployeeId', N'Age', N'CompanyId', N'Name', N'Position') AND [object_id] = OBJECT_ID(N'[Employees]'))
+    SET IDENTITY_INSERT [Employees] OFF;
+2024-03-09 19:12:19.0096 INFO Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'EmployeeId', N'Age', N'CompanyId', N'Name', N'Position') AND [object_id] = OBJECT_ID(N'[Employees]'))
+    SET IDENTITY_INSERT [Employees] ON;
+INSERT INTO [Employees] ([EmployeeId], [Age], [CompanyId], [Name], [Position])
+VALUES ('021ca3c1-0deb-4afd-ae94-2159a8479811', 35, '3d490a70-94ce-4d15-9494-5248280c2ce3', N'Kane Miller', N'Administrator'),
+('80abbca8-664d-4b20-b5de-024705497d4a', 26, 'c9d4c053-49b6-410c-bc78-2d54a9991870', N'Sam Raiden', N'Software developer'),
+('86dba8c0-d178-41e7-938c-ed49778fb52a', 30, 'c9d4c053-49b6-410c-bc78-2d54a9991870', N'Jana McLeaf', N'Software developer');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'EmployeeId', N'Age', N'CompanyId', N'Name', N'Position') AND [object_id] = OBJECT_ID(N'[Employees]'))
+    SET IDENTITY_INSERT [Employees] OFF;
+2024-03-09 19:12:19.0096 DEBUG Creating DbCommand for 'ExecuteNonQuery'.
+2024-03-09 19:12:19.0096 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 19:12:19.0096 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-03-09 19:12:19.0096 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240309221156_DatabaseInsert', N'8.0.2');
+2024-03-09 19:12:19.0096 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240309221156_DatabaseInsert', N'8.0.2');
+2024-03-09 19:12:19.6613 DEBUG Committing transaction.
+2024-03-09 19:12:19.6613 DEBUG Committed transaction.
+2024-03-09 19:12:19.6613 DEBUG Disposing transaction.
+2024-03-09 19:12:19.6613 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:19.6613 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-09 19:12:19.6613 DEBUG 'RepositoryContext' disposed.
+2024-03-09 19:12:19.6613 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:19.6613 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-03-09 19:12:28.6297 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-09 19:12:28.7243 DEBUG Hosting starting
+2024-03-09 19:12:29.0414 DEBUG Connection id "0HN20GO16UDVF" received FIN.
+2024-03-09 19:12:29.0414 DEBUG Connection id "0HN20GO16UDVF" accepted.
+2024-03-09 19:12:29.0486 DEBUG Connection id "0HN20GO16UDVF" started.
+2024-03-09 19:12:29.0725 INFO Now listening on: https://localhost:7137
+2024-03-09 19:12:29.0725 INFO Now listening on: http://localhost:5149
+2024-03-09 19:12:29.0725 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-09 19:12:29.0725 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-09 19:12:29.0725 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-09 19:12:29.0725 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-09 19:12:29.0843 DEBUG Failed to authenticate HTTPS connection.
+2024-03-09 19:12:29.0843 DEBUG Connection id "0HN20GO16UDVF" stopped.
+2024-03-09 19:12:29.0843 DEBUG Connection id "0HN20GO16UDVF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 19:12:29.1364 INFO Application started. Press Ctrl+C to shut down.
+2024-03-09 19:12:29.1364 INFO Hosting environment: Development
+2024-03-09 19:12:29.1364 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-09 19:12:29.1364 DEBUG Hosting started
+2024-03-09 19:12:29.3021 DEBUG Connection id "0HN20GO16UDVG" accepted.
+2024-03-09 19:12:29.3142 DEBUG Connection id "0HN20GO16UDVG" started.
+2024-03-09 19:12:29.4238 DEBUG Connection 0HN20GO16UDVG established using the following protocol: Tls12
+2024-03-09 19:12:29.4731 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/index.html - - -
+2024-03-09 19:12:29.6029 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-09 19:12:29.6266 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-03-09 19:12:29.6266 DEBUG Request did not match any endpoints
+2024-03-09 19:12:29.7075 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-03-09 19:12:29.7075 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-03-09 19:12:29.7300 DEBUG Response markup was updated to include Browser Link script injection.
+2024-03-09 19:12:29.7300 DEBUG Response markup was updated to include browser refresh script injection.
+2024-03-09 19:12:29.7300 DEBUG Connection id "0HN20GO16UDVG" completed keep alive response.
+2024-03-09 19:12:29.7404 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/index.html - 200 - text/html;charset=utf-8 271.7565ms
+2024-03-09 19:12:29.7404 INFO Request starting HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - - -
+2024-03-09 19:12:29.7404 DEBUG Connection id "0HN20GO16UDVG" completed keep alive response.
+2024-03-09 19:12:29.7404 INFO Request finished HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 2.3558ms
+2024-03-09 19:12:29.7576 INFO Request starting HTTP/1.1 GET https://localhost:7137/_vs/browserLink - - -
+2024-03-09 19:12:29.9096 DEBUG Connection id "0HN20GO16UDVG" completed keep alive response.
+2024-03-09 19:12:29.9096 INFO Request finished HTTP/1.1 GET https://localhost:7137/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 152.1350ms
+2024-03-09 19:12:29.9734 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - - -
+2024-03-09 19:12:29.9734 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-09 19:12:29.9734 DEBUG Request did not match any endpoints
+2024-03-09 19:12:30.1374 DEBUG Connection id "0HN20GO16UDVG" completed keep alive response.
+2024-03-09 19:12:30.1374 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 164.1576ms
+2024-03-09 19:12:36.7172 INFO Request starting HTTP/1.1 GET https://localhost:7137/api/Companies - - -
+2024-03-09 19:12:36.7242 DEBUG 1 candidate(s) found for the request path '/api/Companies'
+2024-03-09 19:12:36.7242 DEBUG Endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)' with route pattern 'api/Companies' is valid for the request path '/api/Companies'
+2024-03-09 19:12:36.7242 DEBUG Request matched endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)'
+2024-03-09 19:12:36.7242 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-09 19:12:36.7387 INFO Executing endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)'
+2024-03-09 19:12:36.7629 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller Marinko.API.Controllers.CompaniesController (Marinko.API).
+2024-03-09 19:12:36.7629 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-09 19:12:36.7629 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-09 19:12:36.7629 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-09 19:12:36.7629 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-09 19:12:36.7629 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-09 19:12:36.7666 DEBUG Executing controller factory for controller Marinko.API.Controllers.CompaniesController (Marinko.API)
+2024-03-09 19:12:36.9228 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 19:12:36.9513 DEBUG Executed controller factory for controller Marinko.API.Controllers.CompaniesController (Marinko.API)
+2024-03-09 19:12:37.7134 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: MigrationsAssembly=Marinko.API 
+2024-03-09 19:12:37.7840 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-09 19:12:38.0168 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Entities.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-09 19:12:38.0461 DEBUG Creating DbConnection.
+2024-03-09 19:12:38.0681 DEBUG Created DbConnection. (19ms).
+2024-03-09 19:12:38.0681 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:38.4127 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:38.4127 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-09 19:12:38.4127 DEBUG Created DbCommand for 'ExecuteReader' (3ms).
+2024-03-09 19:12:38.4127 DEBUG Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-03-09 19:12:38.4293 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-09 19:12:38.4636 INFO Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-09 19:12:38.4761 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:38.4761 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 14ms reading results.
+2024-03-09 19:12:38.4761 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:38.4889 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (4ms).
+2024-03-09 19:12:38.4889 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-09 19:12:38.4889 DEBUG No information found on request to perform content negotiation.
+2024-03-09 19:12:38.4889 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-09 19:12:38.4889 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-09 19:12:38.4889 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-09 19:12:38.4889 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Models.Company, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-09 19:12:38.5152 INFO Executed action Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API) in 1744.8316ms
+2024-03-09 19:12:38.5152 INFO Executed endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)'
+2024-03-09 19:12:38.5152 DEBUG Connection id "0HN20GO16UDVG" completed keep alive response.
+2024-03-09 19:12:38.5178 DEBUG 'RepositoryContext' disposed.
+2024-03-09 19:12:38.5178 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:12:38.5178 DEBUG Disposed connection to database '' on server '' (2ms).
+2024-03-09 19:12:38.5178 INFO Request finished HTTP/1.1 GET https://localhost:7137/api/Companies - 200 - application/json;+charset=utf-8 1809.1941ms
+2024-03-09 19:18:30.7673 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-09 19:18:30.8617 DEBUG Hosting starting
+2024-03-09 19:18:31.2224 INFO Now listening on: https://localhost:7137
+2024-03-09 19:18:31.2224 INFO Now listening on: http://localhost:5149
+2024-03-09 19:18:31.2224 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-09 19:18:31.2224 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-09 19:18:31.2224 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-09 19:18:31.2224 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-09 19:18:31.2786 INFO Application started. Press Ctrl+C to shut down.
+2024-03-09 19:18:31.2786 INFO Hosting environment: Development
+2024-03-09 19:18:31.2834 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-09 19:18:31.2834 DEBUG Hosting started
+2024-03-09 19:18:31.3607 DEBUG Connection id "0HN20GRD69KM7" received FIN.
+2024-03-09 19:18:31.3607 DEBUG Connection id "0HN20GRD69KM7" accepted.
+2024-03-09 19:18:31.3607 DEBUG Connection id "0HN20GRD69KM7" started.
+2024-03-09 19:18:31.3874 DEBUG Failed to authenticate HTTPS connection.
+2024-03-09 19:18:31.3916 DEBUG Connection id "0HN20GRD69KM7" stopped.
+2024-03-09 19:18:31.3916 DEBUG Connection id "0HN20GRD69KM7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-09 19:18:31.7058 DEBUG Connection id "0HN20GRD69KM8" accepted.
+2024-03-09 19:18:31.7355 DEBUG Connection id "0HN20GRD69KM8" started.
+2024-03-09 19:18:31.8595 DEBUG Connection 0HN20GRD69KM8 established using the following protocol: Tls12
+2024-03-09 19:18:31.9018 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/index.html - - -
+2024-03-09 19:18:32.0216 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-09 19:18:32.0395 DEBUG No candidates found for the request path '/swagger/index.html'
+2024-03-09 19:18:32.0395 DEBUG Request did not match any endpoints
+2024-03-09 19:18:32.1187 DEBUG Response markup is scheduled to include Browser Link script injection.
+2024-03-09 19:18:32.1187 DEBUG Response markup is scheduled to include browser refresh script injection.
+2024-03-09 19:18:32.1382 DEBUG Response markup was updated to include Browser Link script injection.
+2024-03-09 19:18:32.1382 DEBUG Response markup was updated to include browser refresh script injection.
+2024-03-09 19:18:32.1382 DEBUG Connection id "0HN20GRD69KM8" completed keep alive response.
+2024-03-09 19:18:32.1471 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/index.html - 200 - text/html;charset=utf-8 248.5943ms
+2024-03-09 19:18:32.1591 INFO Request starting HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - - -
+2024-03-09 19:18:32.1591 DEBUG Connection id "0HN20GRD69KM8" completed keep alive response.
+2024-03-09 19:18:32.1591 INFO Request finished HTTP/1.1 GET https://localhost:7137/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 3.2249ms
+2024-03-09 19:18:32.1591 INFO Request starting HTTP/1.1 GET https://localhost:7137/_vs/browserLink - - -
+2024-03-09 19:18:32.2081 DEBUG Connection id "0HN20GRD69KM8" completed keep alive response.
+2024-03-09 19:18:32.2081 INFO Request finished HTTP/1.1 GET https://localhost:7137/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 40.4244ms
+2024-03-09 19:18:32.3269 INFO Request starting HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - - -
+2024-03-09 19:18:32.3303 DEBUG No candidates found for the request path '/swagger/v1/swagger.json'
+2024-03-09 19:18:32.3303 DEBUG Request did not match any endpoints
+2024-03-09 19:18:32.4815 DEBUG Connection id "0HN20GRD69KM8" completed keep alive response.
+2024-03-09 19:18:32.4815 INFO Request finished HTTP/1.1 GET https://localhost:7137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 154.8496ms
+2024-03-09 19:18:37.3157 INFO Request starting HTTP/1.1 GET https://localhost:7137/api/Companies - - -
+2024-03-09 19:18:37.3157 DEBUG 1 candidate(s) found for the request path '/api/Companies'
+2024-03-09 19:18:37.3157 DEBUG Endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)' with route pattern 'api/Companies' is valid for the request path '/api/Companies'
+2024-03-09 19:18:37.3157 DEBUG Request matched endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)'
+2024-03-09 19:18:37.3157 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-09 19:18:37.3333 INFO Executing endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)'
+2024-03-09 19:18:37.3584 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller Marinko.API.Controllers.CompaniesController (Marinko.API).
+2024-03-09 19:18:37.3584 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-09 19:18:37.3598 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-09 19:18:37.3598 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-09 19:18:37.3598 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-09 19:18:37.3598 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-09 19:18:37.3598 DEBUG Executing controller factory for controller Marinko.API.Controllers.CompaniesController (Marinko.API)
+2024-03-09 19:18:37.5196 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-09 19:18:37.5474 DEBUG Executed controller factory for controller Marinko.API.Controllers.CompaniesController (Marinko.API)
+2024-03-09 19:18:38.3012 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: MigrationsAssembly=Marinko.API 
+2024-03-09 19:18:38.3873 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-09 19:18:38.6124 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Entities.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-09 19:18:38.6397 DEBUG Creating DbConnection.
+2024-03-09 19:18:38.6637 DEBUG Created DbConnection. (20ms).
+2024-03-09 19:18:38.6637 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:18:40.3824 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:18:40.3824 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-09 19:18:40.3920 DEBUG Created DbCommand for 'ExecuteReader' (4ms).
+2024-03-09 19:18:40.3920 DEBUG Initialized DbCommand for 'ExecuteReader' (9ms).
+2024-03-09 19:18:40.3920 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-09 19:18:40.4335 INFO Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-09 19:18:40.4443 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:18:40.4443 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 12ms reading results.
+2024-03-09 19:18:40.4443 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:18:40.4574 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-03-09 19:18:40.4574 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-09 19:18:40.4574 DEBUG No information found on request to perform content negotiation.
+2024-03-09 19:18:40.4574 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-09 19:18:40.4574 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-09 19:18:40.4574 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-09 19:18:40.4574 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.DataTransferObjects.CompanyDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-09 19:18:40.4856 INFO Executed action Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API) in 3116.4959ms
+2024-03-09 19:18:40.4856 INFO Executed endpoint 'Marinko.API.Controllers.CompaniesController.GetCompanies (Marinko.API)'
+2024-03-09 19:18:40.4856 DEBUG Connection id "0HN20GRD69KM8" completed keep alive response.
+2024-03-09 19:18:40.4856 DEBUG 'RepositoryContext' disposed.
+2024-03-09 19:18:40.4856 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-09 19:18:40.4856 DEBUG Disposed connection to database '' on server '' (1ms).
+2024-03-09 19:18:40.4856 INFO Request finished HTTP/1.1 GET https://localhost:7137/api/Companies - 200 - application/json;+charset=utf-8 3182.9322ms

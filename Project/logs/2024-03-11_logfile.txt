@@ -1,0 +1,1708 @@
+2024-03-11 13:22:56.5159 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 13:22:56.6821 DEBUG Hosting starting
+2024-03-11 13:22:56.8387 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 13:22:57.0166 INFO Now listening on: http://localhost:5149
+2024-03-11 13:22:57.0166 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 13:22:57.0166 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 13:22:57.0166 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 13:22:57.0166 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 13:22:57.0460 DEBUG Connection id "0HN21SU1FKBPJ" accepted.
+2024-03-11 13:22:57.0460 DEBUG Connection id "0HN21SU1FKBPJ" started.
+2024-03-11 13:22:57.0872 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 13:22:57.0898 INFO Hosting environment: Development
+2024-03-11 13:22:57.0898 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 13:22:57.0898 DEBUG Hosting started
+2024-03-11 13:22:57.1133 DEBUG Connection id "0HN21SU1FKBPK" accepted.
+2024-03-11 13:22:57.1133 DEBUG Connection id "0HN21SU1FKBPK" started.
+2024-03-11 13:22:57.5913 DEBUG Connection id "0HN21SU1FKBPL" accepted.
+2024-03-11 13:22:57.5913 DEBUG Connection id "0HN21SU1FKBPM" accepted.
+2024-03-11 13:22:57.6060 DEBUG Connection id "0HN21SU1FKBPL" started.
+2024-03-11 13:22:57.6060 DEBUG Connection id "0HN21SU1FKBPM" started.
+2024-03-11 13:22:57.6689 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 13:22:57.9280 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 13:22:57.9493 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 13:22:57.9493 DEBUG Request did not match any endpoints
+2024-03-11 13:22:57.9493 WARN Failed to determine the https port for redirect.
+2024-03-11 13:22:57.9493 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 13:22:57.9907 DEBUG Connection id "0HN21SU1FKBPM" completed keep alive response.
+2024-03-11 13:22:57.9907 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 336.0749ms
+2024-03-11 13:22:57.9965 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 13:23:07.3046 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 13:23:07.3167 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 13:23:07.3167 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 13:23:07.3167 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 13:23:07.3167 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 13:23:07.3252 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 13:23:07.3478 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 13:23:07.3478 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 13:23:07.3478 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 13:23:07.3478 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 13:23:07.3478 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 13:23:07.3478 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 13:23:07.3478 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 13:23:07.5662 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 13:23:07.6117 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 13:23:11.5644 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 13:23:11.7382 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-11 13:23:12.0407 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-11 13:23:12.0697 DEBUG Creating DbConnection.
+2024-03-11 13:23:12.1024 DEBUG Created DbConnection. (30ms).
+2024-03-11 13:23:12.1024 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 13:23:14.7480 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 13:23:14.7480 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 13:23:14.7480 DEBUG Created DbCommand for 'ExecuteReader' (4ms).
+2024-03-11 13:23:14.7480 DEBUG Initialized DbCommand for 'ExecuteReader' (9ms).
+2024-03-11 13:23:14.7676 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 13:23:14.8082 INFO Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 13:23:14.8082 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 13:23:14.8269 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 13ms reading results.
+2024-03-11 13:23:14.8269 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 13:23:14.8269 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-03-11 13:23:14.8392 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-11 13:23:14.8392 DEBUG No information found on request to perform content negotiation.
+2024-03-11 13:23:14.8392 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-11 13:23:14.8392 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-11 13:23:14.8392 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-11 13:23:14.8392 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Models.Company, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-11 13:23:14.8820 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 7520.322ms
+2024-03-11 13:23:14.8820 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 13:23:14.8820 DEBUG Connection id "0HN21SU1FKBPM" completed keep alive response.
+2024-03-11 13:23:14.8820 DEBUG 'RepositoryContext' disposed.
+2024-03-11 13:23:14.8913 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 13:23:14.8913 DEBUG Disposed connection to database '' on server '' (3ms).
+2024-03-11 13:23:14.8913 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 200 - application/json;+charset=utf-8 7590.8774ms
+2024-03-11 13:23:14.9307 INFO Request starting HTTP/1.1 GET http://localhost:5149/favicon.ico - - -
+2024-03-11 13:23:14.9307 DEBUG No candidates found for the request path '/favicon.ico'
+2024-03-11 13:23:14.9307 DEBUG Request did not match any endpoints
+2024-03-11 13:23:14.9307 DEBUG The request path /favicon.ico does not match an existing file
+2024-03-11 13:23:14.9334 DEBUG Connection id "0HN21SU1FKBPM" completed keep alive response.
+2024-03-11 13:23:14.9334 INFO Request finished HTTP/1.1 GET http://localhost:5149/favicon.ico - 404 0 - 2.8251ms
+2024-03-11 13:23:14.9334 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/favicon.ico, Response status code: 404
+2024-03-11 13:23:38.7894 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger/api/companies - - -
+2024-03-11 13:23:38.8050 DEBUG No candidates found for the request path '/swagger/api/companies'
+2024-03-11 13:23:38.8050 DEBUG Request did not match any endpoints
+2024-03-11 13:23:38.8050 DEBUG The request path /swagger/api/companies does not match a supported file type
+2024-03-11 13:23:38.8050 DEBUG Connection id "0HN21SU1FKBPM" completed keep alive response.
+2024-03-11 13:23:38.8050 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger/api/companies - 404 0 - 16.3409ms
+2024-03-11 13:23:38.8050 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger/api/companies, Response status code: 404
+2024-03-11 15:41:00.5444 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 15:41:00.6616 DEBUG Hosting starting
+2024-03-11 15:41:00.7909 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 15:41:00.9254 INFO Now listening on: http://localhost:5149
+2024-03-11 15:41:00.9254 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 15:41:00.9254 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 15:41:00.9254 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 15:41:00.9254 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 15:41:00.9791 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 15:41:00.9815 INFO Hosting environment: Development
+2024-03-11 15:41:00.9815 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 15:41:00.9815 DEBUG Hosting started
+2024-03-11 15:41:01.3012 DEBUG Connection id "0HN21VB6CEIJU" received FIN.
+2024-03-11 15:41:01.3012 DEBUG Connection id "0HN21VB6CEIJU" accepted.
+2024-03-11 15:41:01.3012 DEBUG Connection id "0HN21VB6CEIJU" started.
+2024-03-11 15:41:01.3201 DEBUG Connection id "0HN21VB6CEIJU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 15:41:01.3201 DEBUG Connection id "0HN21VB6CEIJU" disconnecting.
+2024-03-11 15:41:01.3255 DEBUG Connection id "0HN21VB6CEIJU" stopped.
+2024-03-11 15:41:01.5767 DEBUG Connection id "0HN21VB6CEIJV" accepted.
+2024-03-11 15:41:01.6026 DEBUG Connection id "0HN21VB6CEIK0" accepted.
+2024-03-11 15:41:01.6128 DEBUG Connection id "0HN21VB6CEIJV" started.
+2024-03-11 15:41:01.6317 DEBUG Connection id "0HN21VB6CEIK0" started.
+2024-03-11 15:41:01.6772 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 15:41:01.8966 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 15:41:01.9126 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 15:41:01.9126 DEBUG Request did not match any endpoints
+2024-03-11 15:41:01.9343 WARN Failed to determine the https port for redirect.
+2024-03-11 15:41:01.9343 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 15:41:01.9571 DEBUG Connection id "0HN21VB6CEIK0" completed keep alive response.
+2024-03-11 15:41:01.9571 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 290.6513ms
+2024-03-11 15:41:01.9571 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 15:41:25.8084 DEBUG Connection id "0HN21VB6CEIK1" accepted.
+2024-03-11 15:41:25.8084 DEBUG Connection id "0HN21VB6CEIK1" started.
+2024-03-11 15:41:25.8084 DEBUG Connection id "0HN21VB6CEIK1" received FIN.
+2024-03-11 15:41:25.8084 DEBUG Connection id "0HN21VB6CEIK2" accepted.
+2024-03-11 15:41:25.8238 DEBUG Connection id "0HN21VB6CEIK1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 15:41:25.8238 DEBUG Connection id "0HN21VB6CEIK1" disconnecting.
+2024-03-11 15:41:25.8238 DEBUG Connection id "0HN21VB6CEIK2" started.
+2024-03-11 15:41:25.8238 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 15:41:25.8238 DEBUG Connection id "0HN21VB6CEIK1" stopped.
+2024-03-11 15:41:25.8238 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 15:41:25.8238 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 15:41:25.8238 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 15:41:25.8238 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 15:41:25.8400 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 15:41:25.8631 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 15:41:25.8631 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 15:41:25.8631 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 15:41:25.8631 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 15:41:25.8631 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 15:41:25.8631 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 15:41:25.8631 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 15:41:26.0590 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 15:41:26.1054 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 15:41:28.6587 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 15:41:28.7493 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-11 15:41:29.0764 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-11 15:41:29.1063 DEBUG Creating DbConnection.
+2024-03-11 15:41:29.1403 DEBUG Created DbConnection. (23ms).
+2024-03-11 15:41:29.1403 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 15:41:32.5604 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 15:41:32.5604 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 15:41:32.5748 DEBUG Created DbCommand for 'ExecuteReader' (4ms).
+2024-03-11 15:41:32.5919 DEBUG Initialized DbCommand for 'ExecuteReader' (14ms).
+2024-03-11 15:41:32.6439 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 15:41:32.8125 INFO Executed DbCommand (206ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 15:41:32.8125 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 15:41:32.8300 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 12ms reading results.
+2024-03-11 15:41:32.8300 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 15:41:32.8300 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-03-11 15:41:32.8411 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-11 15:41:32.8411 DEBUG No information found on request to perform content negotiation.
+2024-03-11 15:41:32.8411 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-11 15:41:32.8411 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-11 15:41:32.8411 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-11 15:41:32.8411 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-11 15:41:32.8782 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 7003.3317ms
+2024-03-11 15:41:32.8782 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 15:41:32.8782 DEBUG Connection id "0HN21VB6CEIK2" completed keep alive response.
+2024-03-11 15:41:32.8782 DEBUG 'RepositoryContext' disposed.
+2024-03-11 15:41:32.8872 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 15:41:32.8872 DEBUG Disposed connection to database '' on server '' (2ms).
+2024-03-11 15:41:32.8872 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 200 - application/json;+charset=utf-8 7064.1903ms
+2024-03-11 15:42:11.5119 DEBUG Connection id "0HN21VB6CEIJV" received FIN.
+2024-03-11 15:42:11.5119 DEBUG Connection id "0HN21VB6CEIJV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 15:42:11.5119 DEBUG Connection id "0HN21VB6CEIJV" disconnecting.
+2024-03-11 15:42:11.5119 DEBUG Connection id "0HN21VB6CEIJV" stopped.
+2024-03-11 15:46:15.7562 DEBUG Connection id "0HN21VB6CEIK0" received FIN.
+2024-03-11 15:46:15.7562 DEBUG Connection id "0HN21VB6CEIK0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 15:46:15.7562 DEBUG Connection id "0HN21VB6CEIK0" disconnecting.
+2024-03-11 15:46:15.7618 DEBUG Connection id "0HN21VB6CEIK0" stopped.
+2024-03-11 16:10:31.0916 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 16:10:31.1894 DEBUG Hosting starting
+2024-03-11 16:10:31.3206 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 16:10:31.4289 INFO Now listening on: http://localhost:5149
+2024-03-11 16:10:31.4289 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 16:10:31.4289 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 16:10:31.4289 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 16:10:31.4289 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 16:10:31.4875 DEBUG Connection id "0HN21VRLU8FBJ" accepted.
+2024-03-11 16:10:31.4875 DEBUG Connection id "0HN21VRLU8FBI" accepted.
+2024-03-11 16:10:31.4875 DEBUG Connection id "0HN21VRLU8FBJ" started.
+2024-03-11 16:10:31.5005 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 16:10:31.5005 DEBUG Connection id "0HN21VRLU8FBJ" received FIN.
+2024-03-11 16:10:31.5005 DEBUG Connection id "0HN21VRLU8FBI" received FIN.
+2024-03-11 16:10:31.5005 DEBUG Connection id "0HN21VRLU8FBI" started.
+2024-03-11 16:10:31.5005 INFO Hosting environment: Development
+2024-03-11 16:10:31.5005 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 16:10:31.5005 DEBUG Hosting started
+2024-03-11 16:10:31.5187 DEBUG Connection id "0HN21VRLU8FBJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:10:31.5187 DEBUG Connection id "0HN21VRLU8FBI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:10:31.5187 DEBUG Connection id "0HN21VRLU8FBI" disconnecting.
+2024-03-11 16:10:31.5187 DEBUG Connection id "0HN21VRLU8FBJ" disconnecting.
+2024-03-11 16:10:31.5187 DEBUG Connection id "0HN21VRLU8FBJ" stopped.
+2024-03-11 16:10:31.5341 DEBUG Connection id "0HN21VRLU8FBI" stopped.
+2024-03-11 16:10:31.7952 DEBUG Connection id "0HN21VRLU8FBK" accepted.
+2024-03-11 16:10:31.7952 DEBUG Connection id "0HN21VRLU8FBL" accepted.
+2024-03-11 16:10:31.7952 DEBUG Connection id "0HN21VRLU8FBK" started.
+2024-03-11 16:10:31.8109 DEBUG Connection id "0HN21VRLU8FBL" started.
+2024-03-11 16:10:31.8522 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 16:10:32.1054 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 16:10:32.1240 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 16:10:32.1240 DEBUG Request did not match any endpoints
+2024-03-11 16:10:32.1418 WARN Failed to determine the https port for redirect.
+2024-03-11 16:10:32.1418 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 16:10:32.1598 DEBUG Connection id "0HN21VRLU8FBL" completed keep alive response.
+2024-03-11 16:10:32.1598 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 315.0617ms
+2024-03-11 16:10:32.1598 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 16:10:37.5864 DEBUG Connection id "0HN21VRLU8FBM" accepted.
+2024-03-11 16:10:37.5864 DEBUG Connection id "0HN21VRLU8FBM" started.
+2024-03-11 16:10:37.5864 DEBUG Connection id "0HN21VRLU8FBM" received FIN.
+2024-03-11 16:10:37.5864 DEBUG Connection id "0HN21VRLU8FBN" accepted.
+2024-03-11 16:10:37.5864 DEBUG Connection id "0HN21VRLU8FBN" started.
+2024-03-11 16:10:37.5864 DEBUG Connection id "0HN21VRLU8FBM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:10:37.5864 DEBUG Connection id "0HN21VRLU8FBM" disconnecting.
+2024-03-11 16:10:37.5864 DEBUG Connection id "0HN21VRLU8FBM" stopped.
+2024-03-11 16:10:37.5864 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 16:10:37.5958 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 16:10:37.5958 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 16:10:37.5958 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:10:37.5958 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 16:10:37.5958 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:10:37.6283 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 16:10:37.6283 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 16:10:37.6283 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 16:10:37.6283 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 16:10:37.6283 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 16:10:37.6283 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 16:10:37.6283 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:10:37.8097 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 16:10:37.8926 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:10:38.6770 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 16:10:38.7615 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-11 16:10:38.9969 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-11 16:10:39.0248 DEBUG Creating DbConnection.
+2024-03-11 16:10:39.0487 DEBUG Created DbConnection. (20ms).
+2024-03-11 16:10:39.0487 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:10:40.8712 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:10:40.8712 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 16:10:40.8712 DEBUG Created DbCommand for 'ExecuteReader' (3ms).
+2024-03-11 16:10:40.8712 DEBUG Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-03-11 16:10:40.8881 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:10:40.9255 INFO Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:10:40.9362 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:10:40.9362 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 12ms reading results.
+2024-03-11 16:10:40.9362 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:10:40.9362 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-03-11 16:10:41.1694 ERROR Something went wrong in the GetAllCompanies service method AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Company, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Company -> CompanyDto
+Entities.Models.Company -> Shared.DataTransferObjects.CompanyDto
+   at lambda_method28(Closure, Company, CompanyDto, ResolutionContext)
+   at lambda_method27(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method27(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Service.Service.CompanyService.GetAllCompanies(Boolean trackChanges) in C:\TreinamentoLivros\Marinko\Marinko.API\Service\CompanyService.cs:line 28
+2024-03-11 16:10:41.2190 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-11 16:10:41.2190 DEBUG No information found on request to perform content negotiation.
+2024-03-11 16:10:41.2190 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-11 16:10:41.2190 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-11 16:10:41.2190 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-03-11 16:10:41.2190 INFO Executing ObjectResult, writing value of type 'System.String'.
+2024-03-11 16:10:41.2357 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 3597.6345ms
+2024-03-11 16:10:41.2357 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:10:41.2357 DEBUG Connection id "0HN21VRLU8FBN" completed keep alive response.
+2024-03-11 16:10:41.2357 DEBUG 'RepositoryContext' disposed.
+2024-03-11 16:10:41.2357 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:10:41.2453 DEBUG Disposed connection to database '' on server '' (2ms).
+2024-03-11 16:10:41.2453 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 500 - text/plain;+charset=utf-8 3657.1332ms
+2024-03-11 16:11:04.9617 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 16:11:04.9670 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 16:11:04.9670 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 16:11:04.9670 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:11:04.9670 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 16:11:04.9670 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:11:04.9670 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 16:11:04.9670 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 16:11:04.9670 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 16:11:04.9670 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 16:11:04.9670 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 16:11:04.9670 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 16:11:04.9670 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:11:04.9670 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:11:16.5272 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 16:11:16.5272 DEBUG Creating DbConnection.
+2024-03-11 16:11:16.5272 DEBUG Created DbConnection. (0ms).
+2024-03-11 16:11:16.5272 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:11:16.5272 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:11:16.5272 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 16:11:16.5272 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-11 16:11:16.5272 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-03-11 16:11:16.5272 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:11:16.5433 INFO Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:11:16.5433 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:11:16.5433 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-03-11 16:11:16.5433 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:11:16.5433 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-11 16:13:09.3396 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 16:13:09.4683 DEBUG Hosting starting
+2024-03-11 16:13:09.5935 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 16:13:09.6894 DEBUG Connection id "0HN21VT52VSVG" accepted.
+2024-03-11 16:13:09.6894 DEBUG Connection id "0HN21VT52VSVG" started.
+2024-03-11 16:13:09.7055 INFO Now listening on: http://localhost:5149
+2024-03-11 16:13:09.7055 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 16:13:09.7055 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 16:13:09.7055 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 16:13:09.7055 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 16:13:09.7055 DEBUG Connection id "0HN21VT52VSVH" accepted.
+2024-03-11 16:13:09.7055 DEBUG Connection id "0HN21VT52VSVH" started.
+2024-03-11 16:13:09.7284 DEBUG Connection id "0HN21VT52VSVH" received FIN.
+2024-03-11 16:13:09.7325 DEBUG Connection id "0HN21VT52VSVG" received FIN.
+2024-03-11 16:13:09.7325 DEBUG Connection id "0HN21VT52VSVH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:13:09.7325 DEBUG Connection id "0HN21VT52VSVH" disconnecting.
+2024-03-11 16:13:09.7325 DEBUG Connection id "0HN21VT52VSVH" stopped.
+2024-03-11 16:13:09.7325 DEBUG Connection id "0HN21VT52VSVG" disconnecting.
+2024-03-11 16:13:09.7325 DEBUG Connection id "0HN21VT52VSVG" stopped.
+2024-03-11 16:13:09.7325 DEBUG Connection id "0HN21VT52VSVG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:13:09.7718 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 16:13:09.7718 INFO Hosting environment: Development
+2024-03-11 16:13:09.7718 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 16:13:09.7718 DEBUG Hosting started
+2024-03-11 16:13:09.9815 DEBUG Connection id "0HN21VT52VSVI" accepted.
+2024-03-11 16:13:09.9815 DEBUG Connection id "0HN21VT52VSVI" started.
+2024-03-11 16:13:09.9815 DEBUG Connection id "0HN21VT52VSVJ" accepted.
+2024-03-11 16:13:09.9815 DEBUG Connection id "0HN21VT52VSVJ" started.
+2024-03-11 16:13:10.0239 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 16:13:10.1754 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 16:13:10.1913 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 16:13:10.1913 DEBUG Request did not match any endpoints
+2024-03-11 16:13:10.2076 WARN Failed to determine the https port for redirect.
+2024-03-11 16:13:10.2076 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 16:13:10.2235 DEBUG Connection id "0HN21VT52VSVJ" completed keep alive response.
+2024-03-11 16:13:10.2235 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 207.3326ms
+2024-03-11 16:13:10.2235 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 16:13:19.1682 DEBUG Connection id "0HN21VT52VSVK" accepted.
+2024-03-11 16:13:19.1682 DEBUG Connection id "0HN21VT52VSVK" received FIN.
+2024-03-11 16:13:19.1682 DEBUG Connection id "0HN21VT52VSVK" started.
+2024-03-11 16:13:19.1682 DEBUG Connection id "0HN21VT52VSVL" accepted.
+2024-03-11 16:13:19.1682 DEBUG Connection id "0HN21VT52VSVL" started.
+2024-03-11 16:13:19.1682 DEBUG Connection id "0HN21VT52VSVK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:13:19.1682 DEBUG Connection id "0HN21VT52VSVK" disconnecting.
+2024-03-11 16:13:19.1682 DEBUG Connection id "0HN21VT52VSVK" stopped.
+2024-03-11 16:13:19.1682 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 16:13:19.1682 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 16:13:19.1682 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 16:13:19.1682 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:13:19.1682 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 16:13:19.1682 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:13:19.2019 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 16:13:19.2019 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 16:13:19.2019 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 16:13:19.2019 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 16:13:19.2019 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 16:13:19.2019 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 16:13:19.2019 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:13:19.3563 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 16:13:19.4368 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:13:26.4699 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 16:13:26.5471 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-11 16:13:26.8520 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-11 16:13:26.8828 DEBUG Creating DbConnection.
+2024-03-11 16:13:26.9067 DEBUG Created DbConnection. (21ms).
+2024-03-11 16:13:26.9067 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:13:27.2571 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:13:27.2571 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 16:13:27.2647 DEBUG Created DbCommand for 'ExecuteReader' (2ms).
+2024-03-11 16:13:27.2647 DEBUG Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-03-11 16:13:27.2647 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:13:27.3052 INFO Executed DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:13:27.3146 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:13:27.3146 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 11ms reading results.
+2024-03-11 16:13:27.3146 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:13:27.3273 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (4ms).
+2024-03-11 16:15:36.9826 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 16:15:37.0847 DEBUG Hosting starting
+2024-03-11 16:15:37.2085 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 16:15:37.3132 INFO Now listening on: http://localhost:5149
+2024-03-11 16:15:37.3132 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 16:15:37.3132 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 16:15:37.3132 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 16:15:37.3132 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 16:15:37.3670 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 16:15:37.3670 INFO Hosting environment: Development
+2024-03-11 16:15:37.3711 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 16:15:37.3711 DEBUG Hosting started
+2024-03-11 16:15:37.4295 DEBUG Connection id "0HN21VUH3UJFQ" accepted.
+2024-03-11 16:15:37.4295 DEBUG Connection id "0HN21VUH3UJFQ" started.
+2024-03-11 16:15:37.4684 DEBUG Connection id "0HN21VUH3UJFR" received FIN.
+2024-03-11 16:15:37.4684 DEBUG Connection id "0HN21VUH3UJFQ" received FIN.
+2024-03-11 16:15:37.4684 DEBUG Connection id "0HN21VUH3UJFR" accepted.
+2024-03-11 16:15:37.4684 DEBUG Connection id "0HN21VUH3UJFR" started.
+2024-03-11 16:15:37.4684 DEBUG Connection id "0HN21VUH3UJFR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:15:37.4684 DEBUG Connection id "0HN21VUH3UJFQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:15:37.4801 DEBUG Connection id "0HN21VUH3UJFQ" disconnecting.
+2024-03-11 16:15:37.4801 DEBUG Connection id "0HN21VUH3UJFR" disconnecting.
+2024-03-11 16:15:37.4801 DEBUG Connection id "0HN21VUH3UJFR" stopped.
+2024-03-11 16:15:37.4801 DEBUG Connection id "0HN21VUH3UJFQ" stopped.
+2024-03-11 16:15:37.7246 DEBUG Connection id "0HN21VUH3UJFS" accepted.
+2024-03-11 16:15:37.7246 DEBUG Connection id "0HN21VUH3UJFT" accepted.
+2024-03-11 16:15:37.7246 DEBUG Connection id "0HN21VUH3UJFS" started.
+2024-03-11 16:15:37.7246 DEBUG Connection id "0HN21VUH3UJFT" started.
+2024-03-11 16:15:37.7926 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 16:15:37.9680 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 16:15:37.9851 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 16:15:37.9851 DEBUG Request did not match any endpoints
+2024-03-11 16:15:38.0007 WARN Failed to determine the https port for redirect.
+2024-03-11 16:15:38.0007 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 16:15:38.0152 DEBUG Connection id "0HN21VUH3UJFT" completed keep alive response.
+2024-03-11 16:15:38.0152 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 230.2783ms
+2024-03-11 16:15:38.0152 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 16:15:42.4660 DEBUG Connection id "0HN21VUH3UJFU" accepted.
+2024-03-11 16:15:42.4660 DEBUG Connection id "0HN21VUH3UJFU" started.
+2024-03-11 16:15:42.4660 DEBUG Connection id "0HN21VUH3UJFU" received FIN.
+2024-03-11 16:15:42.4660 DEBUG Connection id "0HN21VUH3UJFV" accepted.
+2024-03-11 16:15:42.4660 DEBUG Connection id "0HN21VUH3UJFU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:15:42.4660 DEBUG Connection id "0HN21VUH3UJFV" started.
+2024-03-11 16:15:42.4660 DEBUG Connection id "0HN21VUH3UJFU" disconnecting.
+2024-03-11 16:15:42.4660 DEBUG Connection id "0HN21VUH3UJFU" stopped.
+2024-03-11 16:15:42.4660 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 16:15:42.4660 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 16:15:42.4660 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 16:15:42.4660 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:15:42.4660 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 16:15:42.4814 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:15:42.5060 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 16:15:42.5060 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 16:15:42.5060 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 16:15:42.5060 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 16:15:42.5060 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 16:15:42.5060 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 16:15:42.5060 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:15:42.6736 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 16:15:42.7548 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:15:46.5103 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 16:15:46.5895 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-11 16:15:46.8798 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-11 16:15:46.9048 DEBUG Creating DbConnection.
+2024-03-11 16:15:46.9308 DEBUG Created DbConnection. (23ms).
+2024-03-11 16:15:46.9308 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:15:47.2915 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:15:47.2941 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 16:15:47.2941 DEBUG Created DbCommand for 'ExecuteReader' (3ms).
+2024-03-11 16:15:47.2941 DEBUG Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-03-11 16:15:47.3096 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:15:47.3420 INFO Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:15:47.3420 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:15:47.3586 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 11ms reading results.
+2024-03-11 16:15:47.3586 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:15:47.3586 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-03-11 16:30:15.2664 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 16:30:15.4008 DEBUG Hosting starting
+2024-03-11 16:30:15.5766 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 16:30:15.7062 INFO Now listening on: http://localhost:5149
+2024-03-11 16:30:15.7062 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 16:30:15.7062 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 16:30:15.7062 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 16:30:15.7062 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 16:30:15.7610 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 16:30:15.7610 INFO Hosting environment: Development
+2024-03-11 16:30:15.7610 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 16:30:15.7610 DEBUG Hosting started
+2024-03-11 16:30:15.8260 DEBUG Connection id "0HN2206MSVUIQ" accepted.
+2024-03-11 16:30:15.8260 DEBUG Connection id "0HN2206MSVUIQ" started.
+2024-03-11 16:30:15.8633 DEBUG Connection id "0HN2206MSVUIR" accepted.
+2024-03-11 16:30:15.8633 DEBUG Connection id "0HN2206MSVUIR" started.
+2024-03-11 16:30:16.9384 DEBUG Connection id "0HN2206MSVUIS" accepted.
+2024-03-11 16:30:17.2860 DEBUG Connection id "0HN2206MSVUIT" accepted.
+2024-03-11 16:30:17.3434 DEBUG Connection id "0HN2206MSVUIS" started.
+2024-03-11 16:30:17.4840 DEBUG Connection id "0HN2206MSVUIT" started.
+2024-03-11 16:30:17.6038 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 16:30:18.3029 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 16:30:18.3241 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 16:30:18.3241 DEBUG Request did not match any endpoints
+2024-03-11 16:30:18.3508 WARN Failed to determine the https port for redirect.
+2024-03-11 16:30:18.3508 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 16:30:18.3676 DEBUG Connection id "0HN2206MSVUIT" completed keep alive response.
+2024-03-11 16:30:18.3676 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 771.5435ms
+2024-03-11 16:30:18.3709 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 16:31:17.5643 DEBUG Connection id "0HN2206MSVUIS" received FIN.
+2024-03-11 16:31:17.5744 DEBUG Connection id "0HN2206MSVUIS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:31:17.5744 DEBUG Connection id "0HN2206MSVUIS" disconnecting.
+2024-03-11 16:31:17.5744 DEBUG Connection id "0HN2206MSVUIS" stopped.
+2024-03-11 16:34:30.5028 DEBUG Connection id "0HN2206MSVUIU" received FIN.
+2024-03-11 16:34:30.5028 DEBUG Connection id "0HN2206MSVUIU" accepted.
+2024-03-11 16:34:30.5028 DEBUG Connection id "0HN2206MSVUIU" started.
+2024-03-11 16:34:30.5028 DEBUG Connection id "0HN2206MSVUIU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:34:30.5028 DEBUG Connection id "0HN2206MSVUIU" disconnecting.
+2024-03-11 16:34:30.5125 DEBUG Connection id "0HN2206MSVUIU" stopped.
+2024-03-11 16:34:30.5125 DEBUG Connection id "0HN2206MSVUIV" accepted.
+2024-03-11 16:34:30.5125 DEBUG Connection id "0HN2206MSVUIV" started.
+2024-03-11 16:34:30.5125 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 16:34:30.5125 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 16:34:30.5282 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 16:34:30.5282 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:34:30.5282 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 16:34:30.5282 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:34:30.5533 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 16:34:30.5533 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 16:34:30.5533 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 16:34:30.5533 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 16:34:30.5533 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 16:34:30.5533 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 16:34:30.5533 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:34:30.7181 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 16:34:30.7919 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:34:34.3463 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 16:34:34.4333 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-11 16:34:34.7187 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-11 16:34:34.7479 DEBUG Creating DbConnection.
+2024-03-11 16:34:34.7711 DEBUG Created DbConnection. (20ms).
+2024-03-11 16:34:34.7711 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:34:36.5681 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:34:36.5681 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 16:34:36.5768 DEBUG Created DbCommand for 'ExecuteReader' (3ms).
+2024-03-11 16:34:36.5768 DEBUG Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-03-11 16:34:36.5768 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:34:36.6186 INFO Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:34:36.6284 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:34:36.6284 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 11ms reading results.
+2024-03-11 16:34:36.6370 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:34:36.6370 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-03-11 16:35:42.8647 DEBUG Connection id "0HN2206MSVUIT" received FIN.
+2024-03-11 16:35:42.9031 DEBUG Connection id "0HN2206MSVUIT" disconnecting.
+2024-03-11 16:35:42.9031 DEBUG Connection id "0HN2206MSVUIT" stopped.
+2024-03-11 16:35:42.9031 DEBUG Connection id "0HN2206MSVUIT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:35:42.9031 ERROR Something went wrong in the GetAllCompanies service method AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Entities.Models.Company, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Company -> CompanyDto
+Entities.Models.Company -> Shared.DataTransferObjects.CompanyDto
+   at lambda_method28(Closure, Company, CompanyDto, ResolutionContext)
+   at lambda_method27(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method27(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Service.Service.CompanyService.GetAllCompanies(Boolean trackChanges) in C:\TreinamentoLivros\Marinko\Marinko.API\Service\CompanyService.cs:line 28
+2024-03-11 16:35:42.9674 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-11 16:35:42.9674 DEBUG No information found on request to perform content negotiation.
+2024-03-11 16:35:42.9674 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-11 16:35:42.9674 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-11 16:35:42.9674 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-03-11 16:35:42.9674 INFO Executing ObjectResult, writing value of type 'System.String'.
+2024-03-11 16:35:42.9864 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 72424.8873ms
+2024-03-11 16:35:42.9864 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:35:42.9864 DEBUG Connection id "0HN2206MSVUIV" completed keep alive response.
+2024-03-11 16:35:42.9864 DEBUG 'RepositoryContext' disposed.
+2024-03-11 16:35:42.9864 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:35:42.9958 DEBUG Disposed connection to database '' on server '' (2ms).
+2024-03-11 16:35:42.9958 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 500 - text/plain;+charset=utf-8 72481.7816ms
+2024-03-11 16:35:48.7155 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 16:35:48.7155 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 16:35:48.7155 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 16:35:48.7155 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:35:48.7155 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 16:35:48.7461 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:35:48.7461 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 16:35:48.7461 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 16:35:48.7461 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 16:35:48.7461 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 16:35:48.7461 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 16:35:48.7461 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 16:35:48.7461 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:35:48.7461 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:39:24.1287 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 16:39:24.1287 DEBUG Creating DbConnection.
+2024-03-11 16:39:24.1367 DEBUG Created DbConnection. (1ms).
+2024-03-11 16:39:24.1367 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:39:24.1367 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:39:24.1367 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 16:39:24.1367 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-11 16:39:24.1367 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-03-11 16:39:24.1367 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:39:24.1367 INFO Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 16:39:24.1367 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:39:24.1367 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-03-11 16:39:24.1367 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 16:39:24.1367 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-11 16:54:47.2614 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 16:54:47.3626 DEBUG Hosting starting
+2024-03-11 16:54:47.4788 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 16:54:47.5822 INFO Now listening on: http://localhost:5149
+2024-03-11 16:54:47.5822 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 16:54:47.5822 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 16:54:47.5822 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 16:54:47.5822 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 16:54:47.6546 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 16:54:47.6546 INFO Hosting environment: Development
+2024-03-11 16:54:47.6546 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 16:54:47.6546 DEBUG Hosting started
+2024-03-11 16:54:47.9184 DEBUG Connection id "0HN220KDJURKF" accepted.
+2024-03-11 16:54:47.9184 DEBUG Connection id "0HN220KDJURKF" started.
+2024-03-11 16:54:47.9184 DEBUG Connection id "0HN220KDJURKG" accepted.
+2024-03-11 16:54:47.9338 DEBUG Connection id "0HN220KDJURKG" started.
+2024-03-11 16:54:47.9338 DEBUG Connection id "0HN220KDJURKG" received FIN.
+2024-03-11 16:54:47.9338 DEBUG Connection id "0HN220KDJURKG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:54:47.9497 DEBUG Connection id "0HN220KDJURKF" received FIN.
+2024-03-11 16:54:47.9497 DEBUG Connection id "0HN220KDJURKG" disconnecting.
+2024-03-11 16:54:47.9497 DEBUG Connection id "0HN220KDJURKF" disconnecting.
+2024-03-11 16:54:47.9497 DEBUG Connection id "0HN220KDJURKF" stopped.
+2024-03-11 16:54:47.9497 DEBUG Connection id "0HN220KDJURKF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:54:48.0047 DEBUG Connection id "0HN220KDJURKG" stopped.
+2024-03-11 16:54:48.2876 DEBUG Connection id "0HN220KDJURKH" accepted.
+2024-03-11 16:54:48.2977 DEBUG Connection id "0HN220KDJURKI" accepted.
+2024-03-11 16:54:48.2977 DEBUG Connection id "0HN220KDJURKH" started.
+2024-03-11 16:54:48.2977 DEBUG Connection id "0HN220KDJURKI" started.
+2024-03-11 16:54:48.3362 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 16:54:48.4998 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 16:54:48.5140 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 16:54:48.5140 DEBUG Request did not match any endpoints
+2024-03-11 16:54:48.5291 WARN Failed to determine the https port for redirect.
+2024-03-11 16:54:48.5291 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 16:54:48.5445 DEBUG Connection id "0HN220KDJURKI" completed keep alive response.
+2024-03-11 16:54:48.5445 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 215.4266ms
+2024-03-11 16:54:48.5445 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 16:54:56.6179 DEBUG Connection id "0HN220KDJURKK" received FIN.
+2024-03-11 16:54:56.6179 DEBUG Connection id "0HN220KDJURKK" accepted.
+2024-03-11 16:54:56.6179 DEBUG Connection id "0HN220KDJURKK" started.
+2024-03-11 16:54:56.6179 DEBUG Connection id "0HN220KDJURKK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:54:56.6179 DEBUG Connection id "0HN220KDJURKK" disconnecting.
+2024-03-11 16:54:56.6179 DEBUG Connection id "0HN220KDJURKL" accepted.
+2024-03-11 16:54:56.6179 DEBUG Connection id "0HN220KDJURKK" stopped.
+2024-03-11 16:54:56.6179 DEBUG Connection id "0HN220KDJURKL" started.
+2024-03-11 16:54:56.6179 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 16:54:56.6250 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 16:54:56.6250 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 16:54:56.6250 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:54:56.6250 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 16:54:56.6250 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:54:56.6520 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 16:54:56.6520 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 16:54:56.6520 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 16:54:56.6520 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 16:54:56.6520 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 16:54:56.6520 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 16:54:56.6520 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:54:56.8026 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 16:54:56.9298 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 271.0527ms
+2024-03-11 16:54:56.9298 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:54:57.0900 ERROR An unhandled exception has occurred while executing the request.
+2024-03-11 16:54:57.0900 DEBUG Connection id "0HN220KDJURKL" completed keep alive response.
+2024-03-11 16:54:57.0900 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 500 - text/plain;+charset=utf-8 482.1807ms
+2024-03-11 16:56:11.5550 DEBUG Connection id "0HN220KDJURKH" received FIN.
+2024-03-11 16:56:11.5550 DEBUG Connection id "0HN220KDJURKH" disconnecting.
+2024-03-11 16:56:11.5550 DEBUG Connection id "0HN220KDJURKH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:56:11.5676 DEBUG Connection id "0HN220KDJURKH" stopped.
+2024-03-11 16:58:24.1694 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 16:58:24.2711 DEBUG Hosting starting
+2024-03-11 16:58:24.3862 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 16:58:24.4864 INFO Now listening on: http://localhost:5149
+2024-03-11 16:58:24.4864 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 16:58:24.4864 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 16:58:24.4864 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 16:58:24.4864 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 16:58:24.5394 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 16:58:24.5394 INFO Hosting environment: Development
+2024-03-11 16:58:24.5435 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 16:58:24.5435 DEBUG Hosting started
+2024-03-11 16:58:24.6559 DEBUG Connection id "0HN220ME6TV9E" received FIN.
+2024-03-11 16:58:24.6559 DEBUG Connection id "0HN220ME6TV9F" accepted.
+2024-03-11 16:58:24.6559 DEBUG Connection id "0HN220ME6TV9E" accepted.
+2024-03-11 16:58:24.6559 DEBUG Connection id "0HN220ME6TV9E" started.
+2024-03-11 16:58:24.6559 DEBUG Connection id "0HN220ME6TV9F" started.
+2024-03-11 16:58:24.6774 DEBUG Connection id "0HN220ME6TV9E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:58:24.6774 DEBUG Connection id "0HN220ME6TV9E" disconnecting.
+2024-03-11 16:58:24.6774 DEBUG Connection id "0HN220ME6TV9E" stopped.
+2024-03-11 16:58:24.7059 DEBUG Connection id "0HN220ME6TV9F" received FIN.
+2024-03-11 16:58:24.7059 DEBUG Connection id "0HN220ME6TV9F" disconnecting.
+2024-03-11 16:58:24.7059 DEBUG Connection id "0HN220ME6TV9F" stopped.
+2024-03-11 16:58:24.7215 DEBUG Connection id "0HN220ME6TV9F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:58:24.9218 DEBUG Connection id "0HN220ME6TV9G" accepted.
+2024-03-11 16:58:24.9351 DEBUG Connection id "0HN220ME6TV9H" accepted.
+2024-03-11 16:58:24.9351 DEBUG Connection id "0HN220ME6TV9G" started.
+2024-03-11 16:58:24.9351 DEBUG Connection id "0HN220ME6TV9H" started.
+2024-03-11 16:58:25.0013 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 16:58:25.1562 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 16:58:25.1727 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 16:58:25.1727 DEBUG Request did not match any endpoints
+2024-03-11 16:58:25.1891 WARN Failed to determine the https port for redirect.
+2024-03-11 16:58:25.1891 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 16:58:25.2041 DEBUG Connection id "0HN220ME6TV9H" completed keep alive response.
+2024-03-11 16:58:25.2041 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 210.3847ms
+2024-03-11 16:58:25.2041 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 16:58:29.1170 DEBUG Connection id "0HN220ME6TV9I" accepted.
+2024-03-11 16:58:29.1170 DEBUG Connection id "0HN220ME6TV9I" received FIN.
+2024-03-11 16:58:29.1170 DEBUG Connection id "0HN220ME6TV9I" started.
+2024-03-11 16:58:29.1170 DEBUG Connection id "0HN220ME6TV9J" accepted.
+2024-03-11 16:58:29.1170 DEBUG Connection id "0HN220ME6TV9I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:58:29.1170 DEBUG Connection id "0HN220ME6TV9I" disconnecting.
+2024-03-11 16:58:29.1170 DEBUG Connection id "0HN220ME6TV9I" stopped.
+2024-03-11 16:58:29.1170 DEBUG Connection id "0HN220ME6TV9J" started.
+2024-03-11 16:58:29.1170 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 16:58:29.1258 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 16:58:29.1258 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 16:58:29.1258 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:58:29.1258 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 16:58:29.1258 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:58:29.1536 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 16:58:29.1536 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 16:58:29.1536 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 16:58:29.1536 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 16:58:29.1536 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 16:58:29.1536 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 16:58:29.1536 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 16:58:29.3097 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 16:58:29.4397 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 279.0528ms
+2024-03-11 16:58:29.4397 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 16:58:29.5888 ERROR An unhandled exception has occurred while executing the request.
+2024-03-11 16:58:29.5935 DEBUG Connection id "0HN220ME6TV9J" completed keep alive response.
+2024-03-11 16:58:29.5935 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 500 - text/plain;+charset=utf-8 476.8539ms
+2024-03-11 16:59:25.2642 DEBUG Connection id "0HN220ME6TV9G" received FIN.
+2024-03-11 16:59:25.2642 DEBUG Connection id "0HN220ME6TV9G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 16:59:25.2642 DEBUG Connection id "0HN220ME6TV9G" disconnecting.
+2024-03-11 16:59:25.2642 DEBUG Connection id "0HN220ME6TV9G" stopped.
+2024-03-11 17:00:02.2164 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 17:00:02.3634 DEBUG Hosting starting
+2024-03-11 17:00:02.5476 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 17:00:02.7610 DEBUG Connection id "0HN220NBEH6UP" accepted.
+2024-03-11 17:00:02.7633 DEBUG Connection id "0HN220NBEH6UP" started.
+2024-03-11 17:00:02.7633 INFO Now listening on: http://localhost:5149
+2024-03-11 17:00:02.7633 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 17:00:02.7633 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 17:00:02.7633 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 17:00:02.7633 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 17:00:02.7905 DEBUG Connection id "0HN220NBEH6UQ" accepted.
+2024-03-11 17:00:02.7905 DEBUG Connection id "0HN220NBEH6UQ" started.
+2024-03-11 17:00:02.8465 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 17:00:02.8465 INFO Hosting environment: Development
+2024-03-11 17:00:02.8465 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 17:00:02.8465 DEBUG Hosting started
+2024-03-11 17:00:03.4675 DEBUG Connection id "0HN220NBEH6UR" accepted.
+2024-03-11 17:00:03.4834 DEBUG Connection id "0HN220NBEH6US" accepted.
+2024-03-11 17:00:03.4834 DEBUG Connection id "0HN220NBEH6UR" started.
+2024-03-11 17:00:03.4834 DEBUG Connection id "0HN220NBEH6US" started.
+2024-03-11 17:00:03.5369 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 17:00:03.7304 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 17:00:03.7489 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 17:00:03.7489 DEBUG Request did not match any endpoints
+2024-03-11 17:00:03.7697 WARN Failed to determine the https port for redirect.
+2024-03-11 17:00:03.7697 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 17:00:03.7933 DEBUG Connection id "0HN220NBEH6UR" completed keep alive response.
+2024-03-11 17:00:03.7933 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 264.9525ms
+2024-03-11 17:00:03.7933 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 17:00:08.8129 DEBUG Connection id "0HN220NBEH6UT" accepted.
+2024-03-11 17:00:08.8129 DEBUG Connection id "0HN220NBEH6UT" received FIN.
+2024-03-11 17:00:08.8129 DEBUG Connection id "0HN220NBEH6UT" started.
+2024-03-11 17:00:08.8129 DEBUG Connection id "0HN220NBEH6UU" accepted.
+2024-03-11 17:00:08.8129 DEBUG Connection id "0HN220NBEH6UU" started.
+2024-03-11 17:00:08.8129 DEBUG Connection id "0HN220NBEH6UT" disconnecting.
+2024-03-11 17:00:08.8129 DEBUG Connection id "0HN220NBEH6UT" stopped.
+2024-03-11 17:00:08.8129 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 17:00:08.8236 DEBUG Connection id "0HN220NBEH6UT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 17:00:08.8236 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 17:00:08.8236 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 17:00:08.8236 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 17:00:08.8236 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 17:00:08.8236 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 17:00:08.8569 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 17:00:08.8569 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 17:00:08.8569 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 17:00:08.8569 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 17:00:08.8569 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 17:00:08.8569 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 17:00:08.8569 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 17:00:09.0027 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 17:00:09.1087 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 245.4215ms
+2024-03-11 17:00:09.1087 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 17:00:09.2520 ERROR An unhandled exception has occurred while executing the request.
+2024-03-11 17:00:09.2520 DEBUG Connection id "0HN220NBEH6UU" completed keep alive response.
+2024-03-11 17:00:09.2520 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 500 - text/plain;+charset=utf-8 440.7882ms
+2024-03-11 17:05:56.1214 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 17:05:56.2156 DEBUG Hosting starting
+2024-03-11 17:05:56.3362 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 17:05:56.4396 INFO Now listening on: http://localhost:5149
+2024-03-11 17:05:56.4396 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 17:05:56.4396 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 17:05:56.4396 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 17:05:56.4396 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 17:05:56.4926 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 17:05:56.4957 INFO Hosting environment: Development
+2024-03-11 17:05:56.4957 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 17:05:56.4957 DEBUG Hosting started
+2024-03-11 17:05:56.5540 DEBUG Connection id "0HN220QKSI9DN" accepted.
+2024-03-11 17:05:56.5540 DEBUG Connection id "0HN220QKSI9DN" started.
+2024-03-11 17:05:56.5623 DEBUG Connection id "0HN220QKSI9DO" received FIN.
+2024-03-11 17:05:56.5623 DEBUG Connection id "0HN220QKSI9DO" accepted.
+2024-03-11 17:05:56.5623 DEBUG Connection id "0HN220QKSI9DO" started.
+2024-03-11 17:05:56.5623 DEBUG Connection id "0HN220QKSI9DN" received FIN.
+2024-03-11 17:05:56.5623 DEBUG Connection id "0HN220QKSI9DO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 17:05:56.5623 DEBUG Connection id "0HN220QKSI9DO" disconnecting.
+2024-03-11 17:05:56.5777 DEBUG Connection id "0HN220QKSI9DN" disconnecting.
+2024-03-11 17:05:56.5777 DEBUG Connection id "0HN220QKSI9DO" stopped.
+2024-03-11 17:05:56.5777 DEBUG Connection id "0HN220QKSI9DN" stopped.
+2024-03-11 17:05:56.5777 DEBUG Connection id "0HN220QKSI9DN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 17:05:56.8398 DEBUG Connection id "0HN220QKSI9DP" accepted.
+2024-03-11 17:05:56.8570 DEBUG Connection id "0HN220QKSI9DQ" accepted.
+2024-03-11 17:05:56.8570 DEBUG Connection id "0HN220QKSI9DP" started.
+2024-03-11 17:05:56.8570 DEBUG Connection id "0HN220QKSI9DQ" started.
+2024-03-11 17:05:56.9151 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 17:05:57.0831 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 17:05:57.1112 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 17:05:57.1112 DEBUG Request did not match any endpoints
+2024-03-11 17:05:57.1288 WARN Failed to determine the https port for redirect.
+2024-03-11 17:05:57.1288 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 17:05:57.1447 DEBUG Connection id "0HN220QKSI9DQ" completed keep alive response.
+2024-03-11 17:05:57.1447 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 239.7631ms
+2024-03-11 17:05:57.1447 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 17:06:03.0524 DEBUG Connection id "0HN220QKSI9DR" accepted.
+2024-03-11 17:06:03.0524 DEBUG Connection id "0HN220QKSI9DR" started.
+2024-03-11 17:06:03.0524 DEBUG Connection id "0HN220QKSI9DR" received FIN.
+2024-03-11 17:06:03.0524 DEBUG Connection id "0HN220QKSI9DS" accepted.
+2024-03-11 17:06:03.0524 DEBUG Connection id "0HN220QKSI9DR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 17:06:03.0524 DEBUG Connection id "0HN220QKSI9DS" started.
+2024-03-11 17:06:03.0524 DEBUG Connection id "0HN220QKSI9DR" disconnecting.
+2024-03-11 17:06:03.0524 DEBUG Connection id "0HN220QKSI9DR" stopped.
+2024-03-11 17:06:03.0524 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 17:06:03.0595 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 17:06:03.0595 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 17:06:03.0595 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 17:06:03.0595 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 17:06:03.0595 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 17:06:03.0736 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 17:06:03.0736 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 17:06:03.0736 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 17:06:03.0736 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 17:06:03.0736 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 17:06:03.0736 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 17:06:03.0907 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 17:06:03.2635 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 17:06:03.4348 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 17:06:07.5325 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 17:06:07.6235 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-11 17:06:07.8930 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-11 17:06:07.9190 DEBUG Creating DbConnection.
+2024-03-11 17:06:07.9428 DEBUG Created DbConnection. (21ms).
+2024-03-11 17:06:07.9428 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 17:06:09.8528 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 17:06:09.8567 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 17:06:09.8567 DEBUG Created DbCommand for 'ExecuteReader' (4ms).
+2024-03-11 17:06:09.8567 DEBUG Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-03-11 17:06:09.8567 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 17:06:09.9036 INFO Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 17:06:09.9036 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 17:06:09.9208 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 12ms reading results.
+2024-03-11 17:06:09.9208 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 17:06:09.9208 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-03-11 17:06:18.4505 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-11 17:06:18.4505 DEBUG No information found on request to perform content negotiation.
+2024-03-11 17:06:18.4505 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-11 17:06:18.4505 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-11 17:06:18.4505 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-11 17:06:18.4505 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-11 17:06:18.4835 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 15388.2946ms
+2024-03-11 17:06:18.4835 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 17:06:18.4835 DEBUG Connection id "0HN220QKSI9DS" completed keep alive response.
+2024-03-11 17:06:18.4835 DEBUG 'RepositoryContext' disposed.
+2024-03-11 17:06:18.4835 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 17:06:18.4835 DEBUG Disposed connection to database '' on server '' (2ms).
+2024-03-11 17:06:18.4835 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 200 - application/json;+charset=utf-8 15439.9377ms
+2024-03-11 17:25:22.3413 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 17:25:22.4576 DEBUG Hosting starting
+2024-03-11 17:25:22.6071 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 17:25:22.7255 INFO Now listening on: http://localhost:5149
+2024-03-11 17:25:22.7255 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 17:25:22.7255 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 17:25:22.7255 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 17:25:22.7255 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 17:25:22.7759 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 17:25:22.7783 INFO Hosting environment: Development
+2024-03-11 17:25:22.7783 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 17:25:22.7783 DEBUG Hosting started
+2024-03-11 17:25:23.0080 DEBUG Connection id "0HN2215GGNOQU" accepted.
+2024-03-11 17:25:23.0080 DEBUG Connection id "0HN2215GGNOQT" accepted.
+2024-03-11 17:25:23.0080 DEBUG Connection id "0HN2215GGNOQT" started.
+2024-03-11 17:25:23.0080 DEBUG Connection id "0HN2215GGNOQU" started.
+2024-03-11 17:25:23.0372 DEBUG Connection id "0HN2215GGNOQT" received FIN.
+2024-03-11 17:25:23.0372 DEBUG Connection id "0HN2215GGNOQT" disconnecting.
+2024-03-11 17:25:23.0432 DEBUG Connection id "0HN2215GGNOQT" stopped.
+2024-03-11 17:25:23.0432 DEBUG Connection id "0HN2215GGNOQU" received FIN.
+2024-03-11 17:25:23.0432 DEBUG Connection id "0HN2215GGNOQU" disconnecting.
+2024-03-11 17:25:23.0432 DEBUG Connection id "0HN2215GGNOQU" stopped.
+2024-03-11 17:25:23.0432 DEBUG Connection id "0HN2215GGNOQT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 17:25:23.0432 DEBUG Connection id "0HN2215GGNOQU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 17:25:23.2879 DEBUG Connection id "0HN2215GGNOQV" accepted.
+2024-03-11 17:25:23.2965 DEBUG Connection id "0HN2215GGNOR0" accepted.
+2024-03-11 17:25:23.2965 DEBUG Connection id "0HN2215GGNOQV" started.
+2024-03-11 17:25:23.2965 DEBUG Connection id "0HN2215GGNOR0" started.
+2024-03-11 17:25:23.3350 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 17:25:23.5012 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 17:25:23.5184 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 17:25:23.5184 DEBUG Request did not match any endpoints
+2024-03-11 17:25:23.5356 WARN Failed to determine the https port for redirect.
+2024-03-11 17:25:23.5356 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 17:25:23.5528 DEBUG Connection id "0HN2215GGNOR0" completed keep alive response.
+2024-03-11 17:25:23.5528 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 225.1257ms
+2024-03-11 17:25:23.5528 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 17:26:19.3129 DEBUG Connection id "0HN2215GGNOR1" accepted.
+2024-03-11 17:26:19.3129 DEBUG Connection id "0HN2215GGNOR1" received FIN.
+2024-03-11 17:26:19.3129 DEBUG Connection id "0HN2215GGNOR1" started.
+2024-03-11 17:26:19.3129 DEBUG Connection id "0HN2215GGNOR1" disconnecting.
+2024-03-11 17:26:19.3129 DEBUG Connection id "0HN2215GGNOR1" stopped.
+2024-03-11 17:26:19.3129 DEBUG Connection id "0HN2215GGNOR2" accepted.
+2024-03-11 17:26:19.3129 DEBUG Connection id "0HN2215GGNOR1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 17:26:19.3129 DEBUG Connection id "0HN2215GGNOR2" started.
+2024-03-11 17:26:19.3129 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 17:26:19.3277 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 17:26:19.3277 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 17:26:19.3277 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 17:26:19.3277 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 17:26:19.3409 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 17:26:19.3660 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 17:26:19.3660 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 17:26:19.3660 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 17:26:19.3660 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 17:26:19.3660 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 17:26:19.3660 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 17:26:19.3660 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 17:26:19.5300 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 17:26:19.6946 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 17:26:25.8541 DEBUG Connection id "0HN2215GGNOQV" received FIN.
+2024-03-11 17:26:25.8541 DEBUG Connection id "0HN2215GGNOQV" disconnecting.
+2024-03-11 17:26:25.8541 DEBUG Connection id "0HN2215GGNOQV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 17:26:25.8557 DEBUG Connection id "0HN2215GGNOQV" stopped.
+2024-03-11 17:26:25.8557 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 6488.3597ms
+2024-03-11 17:26:25.8557 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 17:26:25.9410 ERROR An unhandled exception has occurred while executing the request.
+2024-03-11 17:26:25.9410 ERROR Something went wrong: System.Exception: Exception
+   at CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies() in C:\TreinamentoLivros\Marinko\Marinko.API\CompanyEmployees.Presentation\Controllers\CompaniesController.cs:line 106
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\Program.cs:line 119
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-03-11 17:26:25.9572 DEBUG Connection id "0HN2215GGNOR2" completed keep alive response.
+2024-03-11 17:26:25.9572 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 500 - application/json 6638.3835ms
+2024-03-11 18:03:40.3403 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 18:03:40.4675 DEBUG Hosting starting
+2024-03-11 18:03:40.6382 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 18:03:40.7892 INFO Now listening on: http://localhost:5149
+2024-03-11 18:03:40.7892 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 18:03:40.7892 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 18:03:40.7892 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 18:03:40.7892 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 18:03:40.8442 DEBUG Connection id "0HN221QTAJO2Q" accepted.
+2024-03-11 18:03:40.8442 DEBUG Connection id "0HN221QTAJO2R" accepted.
+2024-03-11 18:03:40.8442 DEBUG Connection id "0HN221QTAJO2Q" started.
+2024-03-11 18:03:40.8962 DEBUG Connection id "0HN221QTAJO2R" started.
+2024-03-11 18:03:40.9110 DEBUG Connection id "0HN221QTAJO2Q" received FIN.
+2024-03-11 18:03:40.9110 DEBUG Connection id "0HN221QTAJO2R" received FIN.
+2024-03-11 18:03:41.0037 DEBUG Connection id "0HN221QTAJO2Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:03:41.0037 DEBUG Connection id "0HN221QTAJO2Q" disconnecting.
+2024-03-11 18:03:41.0037 DEBUG Connection id "0HN221QTAJO2Q" stopped.
+2024-03-11 18:03:41.0576 DEBUG Connection id "0HN221QTAJO2R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:03:41.0576 DEBUG Connection id "0HN221QTAJO2R" disconnecting.
+2024-03-11 18:03:41.0576 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 18:03:41.0576 DEBUG Connection id "0HN221QTAJO2R" stopped.
+2024-03-11 18:03:41.0625 INFO Hosting environment: Development
+2024-03-11 18:03:41.0625 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 18:03:41.0625 DEBUG Hosting started
+2024-03-11 18:03:41.2692 DEBUG Connection id "0HN221QTAJO2S" accepted.
+2024-03-11 18:03:41.2692 DEBUG Connection id "0HN221QTAJO2T" accepted.
+2024-03-11 18:03:41.2692 DEBUG Connection id "0HN221QTAJO2S" started.
+2024-03-11 18:03:41.2692 DEBUG Connection id "0HN221QTAJO2T" started.
+2024-03-11 18:03:41.3036 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 18:03:41.4604 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 18:03:41.4806 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 18:03:41.4806 DEBUG Request did not match any endpoints
+2024-03-11 18:03:41.4992 WARN Failed to determine the https port for redirect.
+2024-03-11 18:03:41.4992 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 18:03:41.5173 DEBUG Connection id "0HN221QTAJO2S" completed keep alive response.
+2024-03-11 18:03:41.5173 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 223.0362ms
+2024-03-11 18:03:41.5173 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2U" accepted.
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2U" received FIN.
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2U" started.
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2V" accepted.
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2V" started.
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2U" disconnecting.
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2U" stopped.
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2V" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2V" disconnecting.
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2V" stopped.
+2024-03-11 18:03:59.4553 DEBUG Connection id "0HN221QTAJO2V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:04:14.5217 DEBUG Connection id "0HN221QTAJO30" received FIN.
+2024-03-11 18:04:14.5217 DEBUG Connection id "0HN221QTAJO30" accepted.
+2024-03-11 18:04:14.5217 DEBUG Connection id "0HN221QTAJO30" started.
+2024-03-11 18:04:14.5217 DEBUG Connection id "0HN221QTAJO30" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:04:14.5217 DEBUG Connection id "0HN221QTAJO31" accepted.
+2024-03-11 18:04:14.5217 DEBUG Connection id "0HN221QTAJO30" disconnecting.
+2024-03-11 18:04:14.5217 DEBUG Connection id "0HN221QTAJO30" stopped.
+2024-03-11 18:04:14.5217 DEBUG Connection id "0HN221QTAJO31" started.
+2024-03-11 18:04:14.5217 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies - - -
+2024-03-11 18:04:14.5308 DEBUG 1 candidate(s) found for the request path '/api/companies'
+2024-03-11 18:04:14.5308 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)' with route pattern 'api/companies' is valid for the request path '/api/companies'
+2024-03-11 18:04:14.5308 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 18:04:14.5308 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 18:04:14.5308 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 18:04:14.5619 INFO Route matched with {action = "GetCompanies", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompanies() on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 18:04:14.5619 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 18:04:14.5619 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 18:04:14.5619 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 18:04:14.5619 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 18:04:14.5619 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 18:04:14.5619 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:04:14.7213 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 18:04:14.8805 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:04:19.9210 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 18:04:20.0083 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .AsNoTracking()
+    .OrderBy(c => c.Name)'
+2024-03-11 18:04:20.2938 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)'
+2024-03-11 18:04:20.3269 DEBUG Creating DbConnection.
+2024-03-11 18:04:20.3516 DEBUG Created DbConnection. (21ms).
+2024-03-11 18:04:20.3555 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:04:22.4052 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:04:22.4052 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 18:04:22.4052 DEBUG Created DbCommand for 'ExecuteReader' (3ms).
+2024-03-11 18:04:22.4175 DEBUG Initialized DbCommand for 'ExecuteReader' (9ms).
+2024-03-11 18:04:22.4175 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 18:04:22.4582 INFO Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+ORDER BY [c].[Name]
+2024-03-11 18:04:22.4681 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:04:22.4681 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 11ms reading results.
+2024-03-11 18:04:22.4681 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:04:22.4819 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (5ms).
+2024-03-11 18:04:22.5015 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-11 18:04:22.5015 DEBUG No information found on request to perform content negotiation.
+2024-03-11 18:04:22.5015 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-11 18:04:22.5015 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-11 18:04:22.5117 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-11 18:04:22.5117 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Shared.DataTransferObjects.CompanyDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-03-11 18:04:22.5320 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation) in 7960.9859ms
+2024-03-11 18:04:22.5320 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompanies (CompanyEmployees.Presentation)'
+2024-03-11 18:04:22.5320 DEBUG Connection id "0HN221QTAJO31" completed keep alive response.
+2024-03-11 18:04:22.5320 DEBUG 'RepositoryContext' disposed.
+2024-03-11 18:04:22.5320 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:04:22.5425 DEBUG Disposed connection to database '' on server '' (3ms).
+2024-03-11 18:04:22.5425 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies - 200 - application/json;+charset=utf-8 8018.2253ms
+2024-03-11 18:04:52.2989 DEBUG Connection id "0HN221QTAJO2T" received FIN.
+2024-03-11 18:04:52.2989 DEBUG Connection id "0HN221QTAJO2T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:04:52.2989 DEBUG Connection id "0HN221QTAJO2T" disconnecting.
+2024-03-11 18:04:52.3136 DEBUG Connection id "0HN221QTAJO2T" stopped.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO32" received FIN.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO32" accepted.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO32" started.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO32" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO33" accepted.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO33" started.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO32" disconnecting.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO32" stopped.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO33" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO33" disconnecting.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO33" stopped.
+2024-03-11 18:04:55.7955 DEBUG Connection id "0HN221QTAJO33" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO34" accepted.
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO34" received FIN.
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO34" started.
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO34" disconnecting.
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO34" stopped.
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO35" accepted.
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO34" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO35" started.
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO35" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO35" disconnecting.
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO35" stopped.
+2024-03-11 18:05:09.5307 DEBUG Connection id "0HN221QTAJO35" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:05:18.5344 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - - -
+2024-03-11 18:05:18.5344 DEBUG 1 candidate(s) found for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3'
+2024-03-11 18:05:18.5344 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' is valid for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3'
+2024-03-11 18:05:18.5344 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:05:18.5344 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 18:05:18.5344 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:05:18.5428 INFO Route matched with {action = "GetCompany", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompany(System.Guid) on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 18:05:18.5428 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 18:05:18.5428 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 18:05:18.5428 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 18:05:18.5428 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 18:05:18.5428 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 18:05:18.5428 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:05:18.5428 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:05:18.5428 DEBUG Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-03-11 18:05:18.5428 DEBUG Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-03-11 18:05:18.5428 DEBUG Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-03-11 18:05:18.5428 DEBUG Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-03-11 18:05:18.5580 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-03-11 18:05:18.5580 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-03-11 18:05:24.3621 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 18:05:24.3621 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .Where(c => c.Id.Equals(__companyId_0))
+    .AsNoTracking()
+    .SingleOrDefault()'
+2024-03-11 18:05:24.4113 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT TOP(2) c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        WHERE c.CompanyId == @__companyId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-03-11 18:05:24.4113 DEBUG Creating DbConnection.
+2024-03-11 18:05:24.4195 DEBUG Created DbConnection. (1ms).
+2024-03-11 18:05:24.4195 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:05:24.4195 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:05:24.4195 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 18:05:24.4195 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-11 18:05:24.4195 DEBUG Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-03-11 18:05:24.4195 DEBUG Executing DbCommand [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+2024-03-11 18:05:24.4585 INFO Executed DbCommand (31ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+2024-03-11 18:05:24.4585 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:05:24.4585 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-03-11 18:05:24.4585 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:05:24.4585 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-11 18:05:24.4585 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-11 18:05:24.4585 DEBUG No information found on request to perform content negotiation.
+2024-03-11 18:05:24.4585 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-11 18:05:24.4585 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-11 18:05:24.4585 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-11 18:05:24.4585 INFO Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.CompanyDto'.
+2024-03-11 18:05:24.4585 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation) in 5914.4889ms
+2024-03-11 18:05:24.4585 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:05:24.4585 DEBUG Connection id "0HN221QTAJO31" completed keep alive response.
+2024-03-11 18:05:24.4585 DEBUG 'RepositoryContext' disposed.
+2024-03-11 18:05:24.4585 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:05:24.4585 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-03-11 18:05:24.4585 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 - application/json;+charset=utf-8 5928.5319ms
+2024-03-11 18:11:26.2149 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 18:11:26.3228 DEBUG Hosting starting
+2024-03-11 18:11:26.4467 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 18:11:26.5566 INFO Now listening on: http://localhost:5149
+2024-03-11 18:11:26.5566 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 18:11:26.5566 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 18:11:26.5566 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 18:11:26.5566 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 18:11:26.6213 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 18:11:26.6213 INFO Hosting environment: Development
+2024-03-11 18:11:26.6213 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 18:11:26.6213 DEBUG Hosting started
+2024-03-11 18:11:26.9307 DEBUG Connection id "0HN221V87I0I6" accepted.
+2024-03-11 18:11:26.9307 DEBUG Connection id "0HN221V87I0I6" started.
+2024-03-11 18:11:26.9457 DEBUG Connection id "0HN221V87I0I6" received FIN.
+2024-03-11 18:11:26.9550 DEBUG Connection id "0HN221V87I0I6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:11:26.9550 DEBUG Connection id "0HN221V87I0I6" disconnecting.
+2024-03-11 18:11:26.9550 DEBUG Connection id "0HN221V87I0I6" stopped.
+2024-03-11 18:11:27.2344 DEBUG Connection id "0HN221V87I0I7" accepted.
+2024-03-11 18:11:27.2344 DEBUG Connection id "0HN221V87I0I8" accepted.
+2024-03-11 18:11:27.2344 DEBUG Connection id "0HN221V87I0I7" started.
+2024-03-11 18:11:27.2344 DEBUG Connection id "0HN221V87I0I8" started.
+2024-03-11 18:11:27.3063 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 18:11:27.4573 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 18:11:27.4750 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 18:11:27.4750 DEBUG Request did not match any endpoints
+2024-03-11 18:11:27.4918 WARN Failed to determine the https port for redirect.
+2024-03-11 18:11:27.4918 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 18:11:27.5146 DEBUG Connection id "0HN221V87I0I8" completed keep alive response.
+2024-03-11 18:11:27.5146 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 216.2580ms
+2024-03-11 18:11:27.5146 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 18:11:31.8433 DEBUG Connection id "0HN221V87I0I9" accepted.
+2024-03-11 18:11:31.8433 DEBUG Connection id "0HN221V87I0I9" received FIN.
+2024-03-11 18:11:31.8433 DEBUG Connection id "0HN221V87I0IA" accepted.
+2024-03-11 18:11:31.8433 DEBUG Connection id "0HN221V87I0IA" started.
+2024-03-11 18:11:31.8433 DEBUG Connection id "0HN221V87I0I9" started.
+2024-03-11 18:11:31.8433 DEBUG Connection id "0HN221V87I0I9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:11:31.8433 DEBUG Connection id "0HN221V87I0I9" disconnecting.
+2024-03-11 18:11:31.8433 DEBUG Connection id "0HN221V87I0I9" stopped.
+2024-03-11 18:11:31.8433 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - - -
+2024-03-11 18:11:31.8600 DEBUG 1 candidate(s) found for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3'
+2024-03-11 18:11:31.8600 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' is valid for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3'
+2024-03-11 18:11:31.8600 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:11:31.8600 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 18:11:31.8600 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:11:31.8884 INFO Route matched with {action = "GetCompany", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompany(System.Guid) on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 18:11:31.8884 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 18:11:31.8884 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 18:11:31.8884 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 18:11:31.8884 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 18:11:31.8884 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 18:11:31.8884 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:11:32.0448 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 18:11:32.1903 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:11:32.1903 DEBUG Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-03-11 18:11:32.1903 DEBUG Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-03-11 18:11:32.1903 DEBUG Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-03-11 18:11:32.1903 DEBUG Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-03-11 18:11:32.1903 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-03-11 18:11:32.1992 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-03-11 18:11:44.2699 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 18:11:44.3486 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .Where(c => c.Id.Equals(__companyId_0))
+    .AsNoTracking()
+    .SingleOrDefault()'
+2024-03-11 18:11:44.6749 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT TOP(2) c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        WHERE c.CompanyId == @__companyId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-03-11 18:11:44.7091 DEBUG Creating DbConnection.
+2024-03-11 18:11:44.7381 DEBUG Created DbConnection. (25ms).
+2024-03-11 18:11:44.7381 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:11:45.0839 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:11:45.0839 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 18:11:45.0922 DEBUG Created DbCommand for 'ExecuteReader' (3ms).
+2024-03-11 18:11:45.0922 DEBUG Initialized DbCommand for 'ExecuteReader' (15ms).
+2024-03-11 18:11:45.1089 DEBUG Executing DbCommand [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+2024-03-11 18:11:45.1616 INFO Executed DbCommand (48ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+2024-03-11 18:11:45.1720 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:11:45.1720 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 12ms reading results.
+2024-03-11 18:11:45.1720 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:11:45.1871 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (6ms).
+2024-03-11 18:11:45.1992 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-11 18:11:45.1992 DEBUG No information found on request to perform content negotiation.
+2024-03-11 18:11:45.1992 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-11 18:11:45.1992 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-11 18:11:45.1992 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-11 18:11:45.1992 INFO Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.CompanyDto'.
+2024-03-11 18:11:45.2234 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation) in 13321.0661ms
+2024-03-11 18:11:45.2234 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:11:45.2234 DEBUG Connection id "0HN221V87I0IA" completed keep alive response.
+2024-03-11 18:11:45.2234 DEBUG 'RepositoryContext' disposed.
+2024-03-11 18:11:45.2307 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:11:45.2307 DEBUG Disposed connection to database '' on server '' (3ms).
+2024-03-11 18:11:45.2307 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 - application/json;+charset=utf-8 13385.9490ms
+2024-03-11 18:11:52.4798 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce - - -
+2024-03-11 18:11:52.4803 DEBUG 1 candidate(s) found for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce'
+2024-03-11 18:11:52.4803 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' was rejected by constraint 'id':'Microsoft.AspNetCore.Routing.Constraints.GuidRouteConstraint' with value '3d490a70-94ce-4d15-9494-5248280c2ce' for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce'
+2024-03-11 18:11:52.4803 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' is not valid for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce'
+2024-03-11 18:11:52.4803 DEBUG Request did not match any endpoints
+2024-03-11 18:11:52.4803 DEBUG The request path /api/companies/3d490a70-94ce-4d15-9494-5248280c2ce does not match a supported file type
+2024-03-11 18:11:52.4803 DEBUG Connection id "0HN221V87I0IA" completed keep alive response.
+2024-03-11 18:11:52.4803 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce - 404 0 - 4.3348ms
+2024-03-11 18:11:52.4803 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce, Response status code: 404
+2024-03-11 18:12:04.2897 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce - - -
+2024-03-11 18:12:04.2897 DEBUG 1 candidate(s) found for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce'
+2024-03-11 18:12:04.2897 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' was rejected by constraint 'id':'Microsoft.AspNetCore.Routing.Constraints.GuidRouteConstraint' with value '3d490a70-94ce-4d15-9494-5248280c2ce' for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce'
+2024-03-11 18:12:04.2897 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' is not valid for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce'
+2024-03-11 18:12:04.2897 DEBUG Request did not match any endpoints
+2024-03-11 18:12:04.2897 DEBUG The request path /api/companies/3d490a70-94ce-4d15-9494-5248280c2ce does not match a supported file type
+2024-03-11 18:12:04.2897 DEBUG Connection id "0HN221V87I0IA" completed keep alive response.
+2024-03-11 18:12:04.2897 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce - 404 0 - 1.3363ms
+2024-03-11 18:12:04.2897 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce, Response status code: 404
+2024-03-11 18:16:34.8862 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-03-11 18:16:34.9876 DEBUG Hosting starting
+2024-03-11 18:16:35.1117 WARN The WebRootPath was not found: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\wwwroot. Static files may be unavailable.
+2024-03-11 18:16:35.2114 INFO Now listening on: http://localhost:5149
+2024-03-11 18:16:35.2114 DEBUG Loaded hosting startup assembly Marinko.API
+2024-03-11 18:16:35.2114 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-03-11 18:16:35.2114 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-03-11 18:16:35.2114 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-03-11 18:16:35.2665 INFO Application started. Press Ctrl+C to shut down.
+2024-03-11 18:16:35.2665 INFO Hosting environment: Development
+2024-03-11 18:16:35.2776 INFO Content root path: C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API
+2024-03-11 18:16:35.2776 DEBUG Hosting started
+2024-03-11 18:16:35.3901 DEBUG Connection id "0HN2222458CQS" accepted.
+2024-03-11 18:16:35.3901 DEBUG Connection id "0HN2222458CQS" started.
+2024-03-11 18:16:35.3901 DEBUG Connection id "0HN2222458CQT" accepted.
+2024-03-11 18:16:35.3901 DEBUG Connection id "0HN2222458CQT" started.
+2024-03-11 18:16:35.4276 DEBUG Connection id "0HN2222458CQT" received FIN.
+2024-03-11 18:16:35.4276 DEBUG Connection id "0HN2222458CQS" received FIN.
+2024-03-11 18:16:35.4276 DEBUG Connection id "0HN2222458CQT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:16:35.4276 DEBUG Connection id "0HN2222458CQS" disconnecting.
+2024-03-11 18:16:35.4276 DEBUG Connection id "0HN2222458CQT" disconnecting.
+2024-03-11 18:16:35.4276 DEBUG Connection id "0HN2222458CQT" stopped.
+2024-03-11 18:16:35.4276 DEBUG Connection id "0HN2222458CQS" stopped.
+2024-03-11 18:16:35.4276 DEBUG Connection id "0HN2222458CQS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:16:35.6599 DEBUG Connection id "0HN2222458CQU" accepted.
+2024-03-11 18:16:35.6599 DEBUG Connection id "0HN2222458CQV" accepted.
+2024-03-11 18:16:35.6599 DEBUG Connection id "0HN2222458CQU" started.
+2024-03-11 18:16:35.6846 DEBUG Connection id "0HN2222458CQV" started.
+2024-03-11 18:16:35.7324 INFO Request starting HTTP/1.1 GET http://localhost:5149/swagger - - -
+2024-03-11 18:16:35.8850 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2024-03-11 18:16:35.9023 DEBUG No candidates found for the request path '/swagger'
+2024-03-11 18:16:35.9023 DEBUG Request did not match any endpoints
+2024-03-11 18:16:35.9206 WARN Failed to determine the https port for redirect.
+2024-03-11 18:16:35.9206 DEBUG The request path /swagger does not match a supported file type
+2024-03-11 18:16:35.9432 DEBUG Connection id "0HN2222458CQU" completed keep alive response.
+2024-03-11 18:16:35.9432 INFO Request finished HTTP/1.1 GET http://localhost:5149/swagger - 404 0 - 218.0629ms
+2024-03-11 18:16:35.9432 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/swagger, Response status code: 404
+2024-03-11 18:16:41.9708 DEBUG Connection id "0HN2222458CR0" accepted.
+2024-03-11 18:16:41.9708 DEBUG Connection id "0HN2222458CR0" received FIN.
+2024-03-11 18:16:41.9708 DEBUG Connection id "0HN2222458CR0" started.
+2024-03-11 18:16:41.9708 DEBUG Connection id "0HN2222458CR1" accepted.
+2024-03-11 18:16:41.9708 DEBUG Connection id "0HN2222458CR0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-03-11 18:16:41.9708 DEBUG Connection id "0HN2222458CR1" started.
+2024-03-11 18:16:41.9708 DEBUG Connection id "0HN2222458CR0" disconnecting.
+2024-03-11 18:16:41.9708 DEBUG Connection id "0HN2222458CR0" stopped.
+2024-03-11 18:16:41.9708 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce - - -
+2024-03-11 18:16:41.9708 DEBUG 1 candidate(s) found for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce'
+2024-03-11 18:16:41.9818 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' was rejected by constraint 'id':'Microsoft.AspNetCore.Routing.Constraints.GuidRouteConstraint' with value '3d490a70-94ce-4d15-9494-5248280c2ce' for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce'
+2024-03-11 18:16:41.9818 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' is not valid for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce'
+2024-03-11 18:16:41.9818 DEBUG Request did not match any endpoints
+2024-03-11 18:16:41.9818 DEBUG The request path /api/companies/3d490a70-94ce-4d15-9494-5248280c2ce does not match a supported file type
+2024-03-11 18:16:41.9818 DEBUG Connection id "0HN2222458CR1" completed keep alive response.
+2024-03-11 18:16:41.9818 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce - 404 0 - 12.3557ms
+2024-03-11 18:16:41.9818 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce, Response status code: 404
+2024-03-11 18:16:55.1391 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - - -
+2024-03-11 18:16:55.1721 DEBUG 1 candidate(s) found for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3'
+2024-03-11 18:16:55.1721 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' is valid for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3'
+2024-03-11 18:16:55.1721 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:16:55.1721 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 18:16:55.1849 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:16:55.2175 INFO Route matched with {action = "GetCompany", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompany(System.Guid) on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 18:16:55.2175 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 18:16:55.2175 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 18:16:55.2175 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 18:16:55.2175 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 18:16:55.2175 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 18:16:55.2175 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:16:55.3730 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-03-11 18:16:55.5200 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:16:55.5200 DEBUG Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-03-11 18:16:55.5200 DEBUG Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-03-11 18:16:55.5278 DEBUG Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-03-11 18:16:55.5278 DEBUG Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-03-11 18:16:55.5278 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-03-11 18:16:55.5278 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-03-11 18:16:58.0932 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 18:16:58.1728 DEBUG Compiling query expression: 
+'DbSet<Company>()
+    .Where(c => c.Id.Equals(__companyId_0))
+    .AsNoTracking()
+    .SingleOrDefault()'
+2024-03-11 18:16:58.5029 DEBUG Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Company>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Company.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Company.Address (string) Required MaxLength(60), 1], [Property: Company.Country (string) Required MaxLength(60), 2], [Property: Company.Name (string) Required MaxLength(60), 3] }
+        SELECT TOP(2) c.CompanyId, c.Address, c.Country, c.Name
+        FROM Companies AS c
+        WHERE c.CompanyId == @__companyId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Company>, 
+    Repository.RepositoryContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-03-11 18:16:58.5447 DEBUG Creating DbConnection.
+2024-03-11 18:16:58.5703 DEBUG Created DbConnection. (22ms).
+2024-03-11 18:16:58.5703 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:16:58.9146 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:16:58.9146 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 18:16:58.9222 DEBUG Created DbCommand for 'ExecuteReader' (3ms).
+2024-03-11 18:16:58.9222 DEBUG Initialized DbCommand for 'ExecuteReader' (13ms).
+2024-03-11 18:16:58.9380 DEBUG Executing DbCommand [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+2024-03-11 18:16:58.9857 INFO Executed DbCommand (43ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+2024-03-11 18:16:58.9965 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:16:58.9965 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 13ms reading results.
+2024-03-11 18:16:58.9965 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:16:58.9965 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (4ms).
+2024-03-11 18:16:59.0289 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-03-11 18:16:59.0289 DEBUG No information found on request to perform content negotiation.
+2024-03-11 18:16:59.0289 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-03-11 18:16:59.0289 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2024-03-11 18:16:59.0289 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-03-11 18:16:59.0289 INFO Executing OkObjectResult, writing value of type 'Shared.DataTransferObjects.CompanyDto'.
+2024-03-11 18:16:59.0511 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation) in 3824.6977ms
+2024-03-11 18:16:59.0511 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:16:59.0511 DEBUG Connection id "0HN2222458CR1" completed keep alive response.
+2024-03-11 18:16:59.0511 DEBUG 'RepositoryContext' disposed.
+2024-03-11 18:16:59.0584 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:16:59.0584 DEBUG Disposed connection to database '' on server '' (2ms).
+2024-03-11 18:16:59.0584 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce3 - 200 - application/json;+charset=utf-8 3923.7244ms
+2024-03-11 18:17:05.6751 INFO Request starting HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce4 - - -
+2024-03-11 18:17:05.6751 DEBUG 1 candidate(s) found for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce4'
+2024-03-11 18:17:05.6751 DEBUG Endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)' with route pattern 'api/companies/{id:guid}' is valid for the request path '/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce4'
+2024-03-11 18:17:05.6751 DEBUG Request matched endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:17:05.6751 DEBUG Static files was skipped as the request already matched an endpoint.
+2024-03-11 18:17:05.6751 INFO Executing endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:17:05.6751 INFO Route matched with {action = "GetCompany", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCompany(System.Guid) on controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation).
+2024-03-11 18:17:05.6751 DEBUG Execution plan of authorization filters (in the following order): None
+2024-03-11 18:17:05.6751 DEBUG Execution plan of resource filters (in the following order): None
+2024-03-11 18:17:05.6751 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-03-11 18:17:05.6751 DEBUG Execution plan of exception filters (in the following order): None
+2024-03-11 18:17:05.6751 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-03-11 18:17:05.6751 DEBUG Executing controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:17:05.6751 DEBUG Executed controller factory for controller CompanyEmployees.Presentation.Controllers.CompaniesController (CompanyEmployees.Presentation)
+2024-03-11 18:17:05.6751 DEBUG Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-03-11 18:17:05.6751 DEBUG Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-03-11 18:17:05.6751 DEBUG Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-03-11 18:17:05.6751 DEBUG Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-03-11 18:17:05.6751 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-03-11 18:17:05.6751 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-03-11 18:17:10.7618 DEBUG Entity Framework Core 8.0.2 initialized 'RepositoryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.2' with options: None
+2024-03-11 18:17:10.7618 DEBUG Creating DbConnection.
+2024-03-11 18:17:10.7618 DEBUG Created DbConnection. (0ms).
+2024-03-11 18:17:10.7618 DEBUG Opening connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:17:10.7618 DEBUG Opened connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:17:10.7618 DEBUG Creating DbCommand for 'ExecuteReader'.
+2024-03-11 18:17:10.7618 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2024-03-11 18:17:10.7618 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-03-11 18:17:10.7618 DEBUG Executing DbCommand [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+2024-03-11 18:17:10.7618 INFO Executed DbCommand (1ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [c].[CompanyId], [c].[Address], [c].[Country], [c].[Name]
+FROM [Companies] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0
+2024-03-11 18:17:10.7618 DEBUG Closing data reader to 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:17:10.7618 DEBUG A data reader for 'Marinko' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-03-11 18:17:10.7618 DEBUG Closing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:17:10.7618 DEBUG Closed connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-03-11 18:17:22.5987 INFO Executed action CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation) in 16921.8989ms
+2024-03-11 18:17:22.5987 INFO Executed endpoint 'CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany (CompanyEmployees.Presentation)'
+2024-03-11 18:17:22.6779 ERROR An unhandled exception has occurred while executing the request.
+2024-03-11 18:17:22.6830 ERROR Something went wrong: Entities.Exceptions.CompanyNotFoundException: The company with id: 3d490a70-94ce-4d15-9494-5248280c2ce4 doesn't exist in the database.
+   at Service.Service.CompanyService.GetCompany(Guid id, Boolean trackChanges) in C:\TreinamentoLivros\Marinko\Marinko.API\Service\CompanyService.cs:line 53
+   at CompanyEmployees.Presentation.Controllers.CompaniesController.GetCompany(Guid id) in C:\TreinamentoLivros\Marinko\Marinko.API\CompanyEmployees.Presentation\Controllers\CompaniesController.cs:line 113
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\Program.cs:line 119
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-03-11 18:17:22.6830 DEBUG Connection id "0HN2222458CR1" completed keep alive response.
+2024-03-11 18:17:22.6830 DEBUG 'RepositoryContext' disposed.
+2024-03-11 18:17:22.6830 DEBUG Disposing connection to database 'Marinko' on server '(localdb)\MSSQLLocalDB'.
+2024-03-11 18:17:22.6830 DEBUG Disposed connection to database '' on server '' (0ms).
+2024-03-11 18:17:22.6830 INFO Request finished HTTP/1.1 GET http://localhost:5149/api/companies/3d490a70-94ce-4d15-9494-5248280c2ce4 - 404 - application/json 17018.3634ms
+2024-03-11 18:18:05.3003 DEBUG Connection id "0HN2222458CQV" received FIN.
+2024-03-11 18:18:05.3003 DEBUG Connection id "0HN2222458CQV" disconnecting.
+2024-03-11 18:18:05.3003 DEBUG Connection id "0HN2222458CQV" stopped.
+2024-03-11 18:18:05.3003 DEBUG Connection id "0HN2222458CQV" sending FIN because: "The Socket transport's send loop completed gracefully."
