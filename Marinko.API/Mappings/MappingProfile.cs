@@ -19,6 +19,7 @@ namespace Marinko.API.Mappings
 
             CreateMap<EmployeeForCreationDto, Employee>();
 
+            CreateMap<EmployeeForUpdateDto, Employee>();
         }
     }
 }

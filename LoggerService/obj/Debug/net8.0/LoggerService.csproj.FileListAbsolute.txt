@@ -15,3 +15,4 @@ C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\LoggerSe
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\refint\LoggerService.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\LoggerService.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\ref\LoggerService.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\LoggerService.sourcelink.json

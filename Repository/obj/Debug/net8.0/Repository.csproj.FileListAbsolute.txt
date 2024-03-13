@@ -15,3 +15,4 @@ C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\refint\Repository.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.sourcelink.json

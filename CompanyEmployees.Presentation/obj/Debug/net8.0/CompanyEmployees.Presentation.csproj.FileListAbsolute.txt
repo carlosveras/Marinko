@@ -15,3 +15,4 @@ C:\TreinamentoLivros\Marinko\Marinko.API\CompanyEmployees.Presentation\obj\Debug
 C:\TreinamentoLivros\Marinko\Marinko.API\CompanyEmployees.Presentation\obj\Debug\net8.0\refint\CompanyEmployees.Presentation.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\CompanyEmployees.Presentation\obj\Debug\net8.0\CompanyEmployees.Presentation.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\CompanyEmployees.Presentation\obj\Debug\net8.0\ref\CompanyEmployees.Presentation.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\CompanyEmployees.Presentation\obj\Debug\net8.0\CompanyEmployees.Presentation.sourcelink.json

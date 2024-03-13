@@ -13,3 +13,4 @@ C:\TreinamentoLivros\Marinko\Marinko.API\Service.Contracts\obj\Debug\net8.0\Serv
 C:\TreinamentoLivros\Marinko\Marinko.API\Service.Contracts\obj\Debug\net8.0\refint\Service.Contracts.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Service.Contracts\obj\Debug\net8.0\Service.Contracts.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\Service.Contracts\obj\Debug\net8.0\ref\Service.Contracts.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Service.Contracts\obj\Debug\net8.0\Service.Contracts.sourcelink.json
