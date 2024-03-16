@@ -3,8 +3,10 @@ C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\LoggerSe
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\LoggerService.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\Contracts.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\Entities.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\Shared.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\Contracts.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\Entities.pdb
+C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\Shared.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\LoggerService.csproj.AssemblyReference.cache
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfoInputs.cache
@@ -16,5 +18,3 @@ C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\LoggerSe
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\refint\LoggerService.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\LoggerService.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\obj\Debug\net8.0\ref\LoggerService.dll
-C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\Shared.dll
-C:\TreinamentoLivros\Marinko\Marinko.API\LoggerService\bin\Debug\net8.0\Shared.pdb

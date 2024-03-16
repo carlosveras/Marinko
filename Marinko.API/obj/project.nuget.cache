@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7iMFkNyeQfsgqpdVjWqvho9uA0CI8OP8TXmOFLC7OyHk7M5z3Z+b9nxsBLiwtzP0Iyqs6uNrtj/ldqe0YWEXmQ==",
+  "dgSpecHash": "PZQDmZqngia+oJ1xc/iflkT3fixOZJniHTmlBfi4FMqHEUEIcLnpw/PNObkup0fdg9ANKYVCGE6c2MGUTU4YAQ==",
   "success": true,
   "projectFilePath": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Marinko.API\\Marinko.API.csproj",
   "expectedPackageFiles": [
@@ -93,6 +93,7 @@
     "C:\\Users\\carlo\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.24.0\\system.identitymodel.tokens.jwt.6.24.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\system.linq.dynamic.core\\1.3.10\\system.linq.dynamic.core.1.3.10.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

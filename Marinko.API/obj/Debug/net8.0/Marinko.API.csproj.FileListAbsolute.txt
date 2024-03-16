@@ -150,3 +150,4 @@ C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\obj\Debug\net8.0\refint\Mar
 C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\obj\Debug\net8.0\Marinko.API.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\obj\Debug\net8.0\Marinko.API.genruntimeconfig.cache
 C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\obj\Debug\net8.0\ref\Marinko.API.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Marinko.API\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll

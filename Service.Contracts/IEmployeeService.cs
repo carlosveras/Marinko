@@ -25,7 +25,7 @@ namespace Service.Contracts
 
         void SaveChangesForPatch(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity);
 
-        Task<IEnumerable<EmployeeDto>> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges);
+        Task<(IEnumerable<EmployeeDto> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges);
 
     }
 }

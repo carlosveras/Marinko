@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 using Shared.RequestFeatures;
+using System.Text.Json;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
@@ -13,22 +14,30 @@ namespace CompanyEmployees.Presentation.Controllers
         private readonly IServiceManager _service;
         public EmployeesController(IServiceManager service) => _service = service;
 
-
-       
-        //[HttpGet("{employeeId:guid}", Name = "GetEmployeeForCompany")]
-        //public IActionResult GetEmployeeForCompany(Guid companyId, Guid employeeId)
-        //{
-        //    var employee = _service.EmployeeService.GetEmployee(companyId, employeeId, trackChanges: false);
-        //    return Ok(employee);
-        //}
-
         [HttpGet]
         public async Task<IActionResult> GetEmployeesForCompany(Guid companyId, [FromQuery] EmployeeParameters employeeParameters)
         {
-            var employees = await _service.EmployeeService.GetEmployeesAsync(companyId, employeeParameters, trackChanges: false);
+            var pagedResult = await _service.EmployeeService.GetEmployeesAsync(companyId, employeeParameters, trackChanges: false);
 
-            return Ok(employees);
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));
+
+            return Ok(pagedResult.employees);
         }
+
+        [HttpGet("{employeeId:guid}", Name = "GetEmployeeForCompany")]
+        public IActionResult GetEmployeeForCompany(Guid companyId, Guid employeeId)
+        {
+            var employee = _service.EmployeeService.GetEmployee(companyId, employeeId, trackChanges: false);
+            return Ok(employee);
+        }
+
+        //[HttpGet]
+        //public async Task<IActionResult> GetEmployeesForCompany(Guid companyId, [FromQuery] EmployeeParameters employeeParameters)
+        //{
+        //    var employees = await _service.EmployeeService.GetEmployeesAsync(companyId, employeeParameters, trackChanges: false);
+
+        //    return Ok(employees);
+        //}
 
 
 
