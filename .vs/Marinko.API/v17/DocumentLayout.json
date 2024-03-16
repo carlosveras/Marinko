@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{910EBD6D-49FC-4E8E-B619-6890CC8407EB}|Repository\\Repository.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\repository\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{910EBD6D-49FC-4E8E-B619-6890CC8407EB}|Repository\\Repository.csproj|solutionrelative:repository\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45A6DA80-A450-45FB-B07E-F6DA8478BBBA}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45A6DA80-A450-45FB-B07E-F6DA8478BBBA}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +15,32 @@
       "RelativeMoniker": "D:0:0:{9B06EC09-F0E7-425C-836A-68B5F14A19B3}|Service\\Service.csproj|solutionrelative:service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DAF7A0E-C939-4EB3-A755-2969CAC89ABE}|Service.Contracts\\Service.Contracts.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DAF7A0E-C939-4EB3-A755-2969CAC89ABE}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB9C5634-51A0-4B35-919C-A1A408338B34}|Shared\\Shared.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\shared\\datatransferobjects\\employeeforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB9C5634-51A0-4B35-919C-A1A408338B34}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\employeeforupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D32F2B48-82B8-47DB-A456-0963FAD8171C}|Marinko.API\\Marinko.API.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\marinko.api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D32F2B48-82B8-47DB-A456-0963FAD8171C}|Marinko.API\\Marinko.API.csproj|solutionrelative:marinko.api\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A6DA80-A450-45FB-B07E-F6DA8478BBBA}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A6DA80-A450-45FB-B07E-F6DA8478BBBA}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC477140-38B9-45B5-8DD2-673CB7BFCE35}|Contracts\\Contracts.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC477140-38B9-45B5-8DD2-673CB7BFCE35}|Contracts\\Contracts.csproj|solutionrelative:contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6DAF7A0E-C939-4EB3-A755-2969CAC89ABE}|Service.Contracts\\Service.Contracts.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DAF7A0E-C939-4EB3-A755-2969CAC89ABE}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{910EBD6D-49FC-4E8E-B619-6890CC8407EB}|Repository\\Repository.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{910EBD6D-49FC-4E8E-B619-6890CC8407EB}|Repository\\Repository.csproj|solutionrelative:repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C5634-51A0-4B35-919C-A1A408338B34}|Shared\\Shared.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\shared\\requestfeatures\\employeeparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9C5634-51A0-4B35-919C-A1A408338B34}|Shared\\Shared.csproj|solutionrelative:shared\\requestfeatures\\employeeparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C5634-51A0-4B35-919C-A1A408338B34}|Shared\\Shared.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\shared\\requestfeatures\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9C5634-51A0-4B35-919C-A1A408338B34}|Shared\\Shared.csproj|solutionrelative:shared\\requestfeatures\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9C5634-51A0-4B35-919C-A1A408338B34}|Shared\\Shared.csproj|c:\\treinamentolivros\\marinko\\marinko.api\\shared\\shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB9C5634-51A0-4B35-919C-A1A408338B34}|Shared\\Shared.csproj|solutionrelative:shared\\shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,34 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Marinko.API\\Mappings\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Marinko.API\\Mappings\\MappingProfile.cs",
-              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Marinko.API\\Mappings\\MappingProfile.cs",
-              "RelativeToolTip": "Marinko.API\\Mappings\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:21:58.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeForUpdateDto.cs",
-              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
-              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
-              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
-              "RelativeToolTip": "Shared\\DataTransferObjects\\EmployeeForUpdateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:18:52.916Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -73,27 +59,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAA9wDwAAACFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:37:00.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Service.Contracts\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\IEmployeeService.cs",
-              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Service.Contracts\\IEmployeeService.cs",
-              "RelativeToolTip": "Service.Contracts\\IEmployeeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T14:36:54.931Z",
+              "Title": "Readme.txt",
+              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Repository\\Readme.txt",
+              "RelativeDocumentMoniker": "Repository\\Readme.txt",
+              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Repository\\Readme.txt",
+              "RelativeToolTip": "Repository\\Readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-16T00:09:43.974Z",
               "EditorCaption": ""
             },
             {
@@ -104,34 +77,105 @@
               "RelativeDocumentMoniker": "Repository\\EmployeeRepository.cs",
               "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Repository\\EmployeeRepository.cs",
               "RelativeToolTip": "Repository\\EmployeeRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwCEAAABKAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T14:35:47.709Z"
+              "WhenOpened": "2024-03-15T23:02:08.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Contracts\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "Contracts\\IEmployeeRepository.cs",
               "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Contracts\\IEmployeeRepository.cs",
               "RelativeToolTip": "Contracts\\IEmployeeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T13:05:50.243Z"
+              "WhenOpened": "2024-03-15T22:52:23.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeParameters.cs",
+              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Shared\\RequestFeatures\\EmployeeParameters.cs",
+              "RelativeDocumentMoniker": "Shared\\RequestFeatures\\EmployeeParameters.cs",
+              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Shared\\RequestFeatures\\EmployeeParameters.cs",
+              "RelativeToolTip": "Shared\\RequestFeatures\\EmployeeParameters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T22:49:09.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RequestParameters.cs",
+              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Shared\\RequestFeatures\\RequestParameters.cs",
+              "RelativeDocumentMoniker": "Shared\\RequestFeatures\\RequestParameters.cs",
+              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Shared\\RequestFeatures\\RequestParameters.cs",
+              "RelativeToolTip": "Shared\\RequestFeatures\\RequestParameters.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T22:47:39.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Shared.csproj",
+              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Shared\\Shared.csproj",
+              "RelativeDocumentMoniker": "Shared\\Shared.csproj",
+              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Shared\\Shared.csproj",
+              "RelativeToolTip": "Shared\\Shared.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-15T22:46:50.573Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T22:45:29.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAnwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T22:44:52.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IEmployeeService.cs",
+              "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeToolTip": "Service.Contracts\\IEmployeeService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T22:26:35.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Service\\EmployeeService.cs",
               "RelativeDocumentMoniker": "Service\\EmployeeService.cs",
               "ToolTip": "C:\\TreinamentoLivros\\Marinko\\Marinko.API\\Service\\EmployeeService.cs",
               "RelativeToolTip": "Service\\EmployeeService.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAcwFQAAABgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T12:37:26.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T21:52:17.205Z"
             }
           ]
         },

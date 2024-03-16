@@ -1,10 +1,11 @@
+using CompanyEmployees.Presentation.ActionFilters;
 using Contracts;
-using Entities;
 //using Entities.Mappings;
 using Marinko.API.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.Extensions.Options;
 using NLog.Extensions.Logging;
 
 //var builder = WebApplication.CreateBuilder(args);
@@ -87,6 +88,8 @@ builder.Services.AddControllers().AddApplicationPart(typeof(CompanyEmployees.Pre
 
 builder.Services.AddAutoMapper(typeof(Program));
 
+builder.Services.AddScoped<ValidationFilterAttribute>();
+
 //builder.Services.AddControllers();
 
 //builder.Services.AddControllers(config =>
@@ -103,10 +106,17 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 builder.Services.AddControllers(config => {
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
+    config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
 }).AddXmlDataContractSerializerFormatters()
 .AddCustomCSVFormatter()
 .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
+
+NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
+new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
+.Services.BuildServiceProvider()
+.GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
+.OfType<NewtonsoftJsonPatchInputFormatter>().First();
 
 
 var app = builder.Build();

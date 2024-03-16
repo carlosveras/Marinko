@@ -12,15 +12,18 @@ namespace Repository
         public RepositoryManager(RepositoryContext repositoryContext)
         {
             _repositoryContext = repositoryContext;
-            _companyRepository = new Lazy<ICompanyRepository>(() => new
-            CompanyRepository(repositoryContext));
-            _employeeRepository = new Lazy<IEmployeeRepository>(() => new
-            EmployeeRepository(repositoryContext));
+            _companyRepository = new Lazy<ICompanyRepository>(() => new CompanyRepository(repositoryContext));
+            _employeeRepository = new Lazy<IEmployeeRepository>(() => new  EmployeeRepository(repositoryContext));
         }
 
         public ICompanyRepository Company => _companyRepository.Value;
+
         public IEmployeeRepository Employee => _employeeRepository.Value;
-        public void Save() => _repositoryContext.SaveChanges();
+
+        //public void Save() => _repositoryContext.SaveChanges();
+
+        public async Task SaveAsync() => await _repositoryContext.SaveChangesAsync();
+
     }
 
 }

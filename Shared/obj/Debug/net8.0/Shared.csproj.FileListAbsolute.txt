@@ -5,6 +5,7 @@ C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.Generate
 C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
 C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
 C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.sourcelink.json
 C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\refint\Shared.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Shared\obj\Debug\net8.0\Shared.pdb

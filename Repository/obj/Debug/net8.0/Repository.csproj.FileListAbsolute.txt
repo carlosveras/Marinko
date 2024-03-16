@@ -10,9 +10,11 @@ C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.sourcelink.json
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\refint\Repository.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\ref\Repository.dll
-C:\TreinamentoLivros\Marinko\Marinko.API\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+C:\TreinamentoLivros\Marinko\Marinko.API\Repository\bin\Debug\net8.0\Shared.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Repository\bin\Debug\net8.0\Shared.pdb

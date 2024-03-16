@@ -8,9 +8,11 @@ C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.Ge
 C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
 C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs
 C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.csproj.CoreCompileInputs.cache
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json
 C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.csproj.Up2Date
 C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\refint\Contracts.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.pdb
 C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\ref\Contracts.dll
-C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\obj\Debug\net8.0\Contracts.sourcelink.json
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\bin\Debug\net8.0\Shared.dll
+C:\TreinamentoLivros\Marinko\Marinko.API\Contracts\bin\Debug\net8.0\Shared.pdb

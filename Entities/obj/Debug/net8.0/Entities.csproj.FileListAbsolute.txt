@@ -7,6 +7,7 @@ C:\TreinamentoLivros\Marinko\Marinko.API\Entities\obj\Debug\net8.0\Entities.Gene
 C:\TreinamentoLivros\Marinko\Marinko.API\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
 C:\TreinamentoLivros\Marinko\Marinko.API\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
 C:\TreinamentoLivros\Marinko\Marinko.API\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\TreinamentoLivros\Marinko\Marinko.API\Entities\obj\Debug\net8.0\Entities.sourcelink.json
 C:\TreinamentoLivros\Marinko\Marinko.API\Entities\obj\Debug\net8.0\Entities.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Entities\obj\Debug\net8.0\refint\Entities.dll
 C:\TreinamentoLivros\Marinko\Marinko.API\Entities\obj\Debug\net8.0\Entities.pdb
